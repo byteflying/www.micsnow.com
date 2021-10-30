@@ -1,0 +1,381 @@
+2021-09-30T03:58:47+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin.php(34): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/wp-admin/plugins.php(10): require_once('...')
+#9 {main}
+  thrown
+
+2021-09-30T03:58:47+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-blog-header.php(13): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/index.php(17): require('...')
+#9 {main}
+  thrown
+
+2021-09-30T03:58:49+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin.php(34): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/wp-admin/index.php(10): require_once('...')
+#9 {main}
+  thrown
+
+2021-09-30T03:58:59+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-blog-header.php(13): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/index.php(17): require('...')
+#9 {main}
+  thrown
+
+2021-09-30T03:58:59+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-blog-header.php(13): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/index.php(17): require('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:01:50+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin-ajax.php(22): require_once('...')
+#8 {main}
+  thrown
+
+2021-09-30T04:01:50+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin-ajax.php(22): require_once('...')
+#8 {main}
+  thrown
+
+2021-09-30T04:01:51+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin.php(34): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/wp-admin/index.php(10): require_once('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:01:55+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin.php(34): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/wp-admin/plugins.php(10): require_once('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:01:55+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-blog-header.php(13): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/index.php(17): require('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:01:57+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin.php(34): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/wp-admin/index.php(10): require_once('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:01:57+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin-ajax.php(22): require_once('...')
+#8 {main}
+  thrown
+
+2021-09-30T04:01:57+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-blog-header.php(13): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/index.php(17): require('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:01:59+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-blog-header.php(13): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/index.php(17): require('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:02:00+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin.php(34): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/wp-admin/index.php(10): require_once('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:02:01+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin.php(34): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/wp-admin/index.php(10): require_once('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:02:01+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-blog-header.php(13): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/index.php(17): require('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:02:02+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin-ajax.php(22): require_once('...')
+#8 {main}
+  thrown
+
+2021-09-30T04:02:04+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin.php(34): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/wp-admin/index.php(10): require_once('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:02:05+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin.php(34): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/wp-admin/edit-comments.php(10): require_once('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:02:05+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-blog-header.php(13): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/index.php(17): require('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:02:06+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin.php(34): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/wp-admin/index.php(10): require_once('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:02:08+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin-ajax.php(22): require_once('...')
+#8 {main}
+  thrown
+
+2021-09-30T04:02:09+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin.php(34): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/wp-admin/index.php(10): require_once('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:05:42+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin.php(34): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/wp-admin/plugins.php(10): require_once('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:05:42+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-blog-header.php(13): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/index.php(17): require('...')
+#9 {main}
+  thrown
+
+2021-09-30T04:05:44+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php 中第 37 行的 Uncaught Error: Call to undefined function putenv() in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images-request.php:37
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php(49): WC_Regenerate_Images_Request->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WC_Regenerate_Images::init()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-settings.php(578): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-config.php(92): require_once('...')
+#6 /www/wwwroot/www.micsnow.com/wp-load.php(50): require_once('...')
+#7 /www/wwwroot/www.micsnow.com/wp-admin/admin.php(34): require_once('...')
+#8 /www/wwwroot/www.micsnow.com/wp-admin/index.php(10): require_once('...')
+#9 {main}
+  thrown
+
+2021-09-30T09:12:51+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/src/Internal/DownloadPermissionsAdjuster.php 中第 138 行的 Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\DownloadPermissionsAdjuster::get_download_files_and_permissions() must be an instance of WC_Product, bool given, called in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/src/Internal/DownloadPermissionsAdjuster.php on line 103 and defined in /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/src/Internal/DownloadPermissionsAdjuster.php:138
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/src/Internal/DownloadPermissionsAdjuster.php(103): Automattic\WooCommerce\Internal\DownloadPermissionsAdjuster->get_download_files_and_permissions()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): Automattic\WooCommerce\Internal\DownloadPermissionsAdjuster->adjust_download_permissions()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(518): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.
+

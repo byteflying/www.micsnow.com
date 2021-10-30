@@ -1,0 +1,14 @@
+
+---已下载的文件---
+导入文件：风格10 已成功下载！
+初始最大执行时间  = 300
+文件信息：
+网站地址 = http://106.14.154.151
+数据文件 = /www/wwwroot/www.micsnow.com/wp-content/uploads/2021/07/demo-content-import-file_2021-07-12__09-02-41.xml
+小工具文件 = 未定义！
+自定义文件 = 未定义！
+Redux 文件：
+未定义！
+
+---pt-ocdi/after_import---
+

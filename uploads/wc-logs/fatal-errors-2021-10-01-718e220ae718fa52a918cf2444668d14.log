@@ -1,0 +1,11 @@
+2021-10-01T09:27:00+00:00 CRITICAL /www/wwwroot/www.micsnow.com/wp-content/plugins/woo-paygate-lite/alipay/pagepay/service/AlipayTradeService.php 中第 46 行的 Uncaught Exception: appid should not be NULL! in /www/wwwroot/www.micsnow.com/wp-content/plugins/woo-paygate-lite/alipay/pagepay/service/AlipayTradeService.php:46
+Stack trace:
+#0 /www/wwwroot/www.micsnow.com/wp-content/plugins/woo-paygate-lite/includes/class-alipay.php(175): AlipayTradeService->__construct()
+#1 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(303): WPGate_Alipay->receipt_page()
+#2 /www/wwwroot/www.micsnow.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.micsnow.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/templates/checkout/order-receipt.php(44): do_action()
+#5 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/www/wwwroot/ww...')
+#6 /www/wwwroot/www.micsnow.com/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(208): wc_get_template()
+#7 /www/wwwroot/www.micsnow.com/wp-content/plugins/wooc
+
