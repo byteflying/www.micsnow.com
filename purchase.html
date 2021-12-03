@@ -1,0 +1,1697 @@
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <title>微雪云·让天下没有难管的单据</title>
+    <meta name="application-name" content="Elastic">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="localized" content="true">
+    <meta name="description" content="我们是。">
+    <meta property="og:title" content="开源搜索发者 | Elastic">
+    <meta property="og:description" content="我们是 。">
+    <meta name="twitter:widgets:csp" content="on">
+    <meta name="baidu-site-verification" content="ksp2qKCW7Y">
+    <meta name="naver-site-verification" content="936882c1853b701b3cef3721758d80535413dbfd">
+    <meta name="yandex-verification" content="d8a47e95d0972434">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#00a9e5">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet preload"
+          href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/bootstrap.css">
+
+    <!--    <link rel="preload" href="https://www.elastic.co/_next/static/css/b09bbc53d4107c4b2ed7.css" as="style">-->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/b09bbc53d4107c4b2ed7.css"
+          data-n-g="">
+
+    <link id="__1289460957" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1289460957.css"
+          type="text/css" rel="stylesheet">
+    <link id="__1686641957" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1686641957.css"
+          type="text/css" rel="stylesheet">
+    <link id="__1942800050" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1942800050.css"
+          type="text/css" rel="stylesheet">
+    <link id="__1005675215" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1005675215.css"
+          type="text/css" rel="stylesheet">
+    <link id="__1541135007" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1541135007.css"
+          type="text/css" rel="stylesheet">
+    <link id="__214590950" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/214590950.css"
+          type="text/css" rel="stylesheet">
+    <link id="__1866458751" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1866458751.css"
+          type="text/css" rel="stylesheet">
+    <link id="__958097671" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/958097671.css"
+          type="text/css" rel="stylesheet">
+    <link id="__1872918930" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1872918930.css"
+          type="text/css" rel="stylesheet">
+    <link id="__843357037" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/843357037.css"
+          type="text/css" rel="stylesheet">
+    <link id="__1594925058" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1594925058.css"
+          type="text/css" rel="stylesheet">
+    <link id="__2013086536" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/2013086536.css"
+          type="text/css" rel="stylesheet">
+    <link id="__1276648591" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1276648591.css"
+          type="text/css" rel="stylesheet">
+    <link id="__1270833949" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1270833949.css"
+          type="text/css" rel="stylesheet">
+    <link id="__803570835" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/803570835.css"
+          type="text/css" rel="stylesheet">
+    <link id="__2033539830" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/2033539830.css"
+          type="text/css" rel="stylesheet">
+    <link id="__1280643482" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1280643482.css"
+          type="text/css" rel="stylesheet">
+    <link id="__730640853" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/730640853.css"
+          type="text/css" rel="stylesheet">
+    <link id="__466753481" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/466753481.css"
+          type="text/css" rel="stylesheet">
+    <link id="__1334527925" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1334527925.css"
+          type="text/css" rel="stylesheet">
+    <link id="__134771934" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/134771934.css"
+          type="text/css" rel="stylesheet">
+    <link id="__753257526" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/753257526.css"
+          type="text/css" rel="stylesheet">
+    <link id="__1256080711" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1256080711.css"
+          type="text/css" rel="stylesheet">
+    <link id="__515349177" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/515349177.css"
+          type="text/css" rel="stylesheet">
+    <link id="__695973750" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/695973750.css"
+          type="text/css" rel="stylesheet">
+    <link id="__1547473130" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1547473130.css"
+          type="text/css" rel="stylesheet">
+    <link id="__144885315" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/144885315.css"
+          type="text/css" rel="stylesheet">
+    <link id="__229401848" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/229401848.css"
+          type="text/css" rel="stylesheet">
+    <link id="__409623225" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/409623225.css"
+          type="text/css" rel="stylesheet">
+    <link id="__2099907350" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/2099907350.css"
+          type="text/css" rel="stylesheet">
+    <link id="__623221436" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/623221436.css"
+          type="text/css" rel="stylesheet">
+    <link id="__1717785846" href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1717785846.css"
+          type="text/css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1000000001.css" type="text/css"
+          rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1000000002.css" type="text/css"
+          rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1000000003.css" type="text/css"
+          rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/official/styles/1000000004.css" type="text/css"
+          rel="stylesheet">
+
+    <link id="__1473375649" href="https://www.elastic.co/static-res/styles/jsx/1473375649.css" type="text/css"
+          rel="stylesheet">
+    <link id="__282110643" href="https://www.elastic.co/static-res/styles/jsx/282110643.css" type="text/css"
+          rel="stylesheet">
+    <link id="__621496389" href="https://www.elastic.co/static-res/styles/jsx/621496389.css" type="text/css"
+          rel="stylesheet">
+    <link id="__1271808224" href="https://www.elastic.co/static-res/styles/jsx/1271808224.css" type="text/css"
+          rel="stylesheet">
+    <link id="__1006009668" href="https://www.elastic.co/static-res/styles/jsx/1006009668.css" type="text/css"
+          rel="stylesheet">
+    <link id="__158921055" href="https://www.elastic.co/static-res/styles/jsx/158921055.css" type="text/css"
+          rel="stylesheet">
+    <link id="__1365528683" href="https://www.elastic.co/static-res/styles/jsx/1365528683.css" type="text/css"
+          rel="stylesheet">
+
+    <link id="__1160252118" href="/static-res/styles/jsx/1160252118.css" type="text/css" rel="stylesheet">
+    <link id="__1024899300" href="/static-res/styles/jsx/1024899300.css" type="text/css" rel="stylesheet">
+    <link id="__399965586" href="/static-res/styles/jsx/399965586.css" type="text/css" rel="stylesheet">
+    <link id="__321926360" href="/static-res/styles/jsx/321926360.css" type="text/css" rel="stylesheet">
+    <link id="__1329970389" href="/static-res/styles/jsx/1329970389.css" type="text/css" rel="stylesheet">
+    <link id="__717817370" href="/static-res/styles/jsx/717817370.css" type="text/css" rel="stylesheet">
+    <link id="__252043433" href="/static-res/styles/jsx/252043433.css" type="text/css" rel="stylesheet">
+    <link id="__2032997307" href="/static-res/styles/jsx/2032997307.css" type="text/css" rel="stylesheet">
+    <link id="__1476583828" href="/static-res/styles/jsx/1476583828.css" type="text/css" rel="stylesheet">
+    <link id="__112739138" href="/static-res/styles/jsx/112739138.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="__next">
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+    <div class="jsx-2618419428 header">
+        <header class="jsx-2618419428 header-wrapper">
+            <div id="elasticnav" class="jsx-3029841567 dropdownInactive">
+                <div class="jsx-3029841567"></div>
+                <div class="jsx-3029841567 container">
+                    <div class="jsx-3029841567 navbar navbar-expand-md">
+                        <div class="jsx-3122622639 navbar-brand"><a href="/cn/" id="elastic-logo"
+                                                                    class="jsx-3122622639"><img
+                                src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt280217a63b82a734/5bbdaacf63ed239936a7dd56/elastic-logo.svg"
+                                alt="Elastic logo" class="jsx-3122622639"></a>
+                            <button id="searchbar-mobile" type="button"
+                                    class="jsx-3122622639 nav-link button search d-md-none"></button>
+                            <div aria-hidden="true" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                 aria-controls="navbarSupportedContent" aria-expanded="false"
+                                 aria-label="Toggle navigation"
+                                 class="jsx-417518970 d-md-none navbar-mobile-header-icon navbar-mobile-header-icon-out">
+                                <span class="jsx-417518970"></span><span class="jsx-417518970"></span><span
+                                    class="jsx-417518970"></span>
+                            </div>
+                        </div>
+                        <div
+                                class="jsx-3029841567 d-md-flex justify-content-between align-items-center w-100 navbar-container">
+                            <nav aria-label="Elastic Menu" class="jsx-2041509563 hide secondaryHide">
+                                <div class="jsx-2041509563 primary">
+                                    <ul class="jsx-2041509563">
+                                        <li data-nav-item="customers" aria-hidden="true"
+                                            class="jsx-4202792971 navbar-item navbar-single-item"><a
+                                                data-nav-item="customers" aria-expanded="false"
+                                                aria-controls="id_customers_menu"
+                                                class="jsx-4202792971 mainnav-item">产品</a></li>
+                                        <li data-nav-item="customers" aria-hidden="true"
+                                            class="jsx-4202792971 navbar-item navbar-single-item"><a
+                                                data-nav-item="customers" aria-expanded="false"
+                                                aria-controls="id_customers_menu"
+                                                class="jsx-4202792971 mainnav-item">我们的客户</a></li>
+                                        <li data-nav-item="customers" aria-hidden="true"
+                                            class="jsx-4202792971 navbar-item navbar-single-item"><a
+                                                data-nav-item="customers" aria-expanded="false"
+                                                aria-controls="id_customers_menu"
+                                                class="jsx-4202792971 mainnav-item">博客</a></li>
+                                        <li data-nav-item="customers" aria-hidden="true"
+                                            class="jsx-4202792971 navbar-item navbar-single-item"><a
+                                                data-nav-item="customers" aria-expanded="false"
+                                                aria-controls="id_customers_menu"
+                                                class="jsx-4202792971 mainnav-item">公司</a></li>
+                                        <li data-nav-item="customers" aria-hidden="true"
+                                            class="jsx-4202792971 navbar-item navbar-single-item"><a
+                                                data-nav-item="customers" aria-expanded="false"
+                                                aria-controls="id_customers_menu"
+                                                class="jsx-4202792971 mainnav-item">定价</a></li>
+                                    </ul>
+                                    <div class="jsx-2041509563 d-md-none mobile-login"><a
+                                            href="https://cloud.elastic.co/registration"
+                                            class="jsx-2041509563 btn-primary btn-small">免费试用</a>
+                                        <!--                                        <p class="jsx-2041509563 medium">已经有帐户？<a href="https://cloud.elastic.co/"-->
+                                        <!--                                                                                  class="jsx-2041509563">登录</a></p>-->
+                                        <p class="jsx-2041509563 medium">有问题么？<a
+                                                href="/cn/contact?storm=global-header-en"
+                                                class="jsx-2041509563">联系我们</a></p>
+                                    </div>
+                                </div>
+                                <div class="jsx-3523068014 dropdownHolder secondaryHide localized">
+                                    <div style="transform:translateX(0px);dropdown-menu-active:unset"
+                                         class="jsx-3523068014 dropdowns ">
+                                        <div style="transform:translateX(0px rotate(45deg));transition-duration:unset"
+                                             class="jsx-3523068014 caret d-none d-md-block"></div>
+                                        <div style="transition-duration:unset" class="jsx-3523068014 caret-tablet">
+                                        </div>
+                                        <div id="id_products_menu" data-nav-item="products"
+                                             class="jsx-3774780206 dropdown-root inactive"
+                                             style="height: 446px; width: 730px;">
+                                            <div class="jsx-3774780206 dropdown-content products localized">
+                                                <div class="jsx-3774780206 subnav-outer-wrapper">
+                                                    <div class="jsx-3774780206 subnav-wrapper">
+                                                        <div class="jsx-3774780206 d-md-none back-btn"><a href="#"
+                                                                                                          class="jsx-3774780206">产品</a>
+                                                        </div>
+                                                        <div class="jsx-3774780206 prinav grid grid-2">
+                                                            <div class="jsx-3774780206 column">
+                                                                <h2 class="jsx-481988444 topic-heading">解决方案</h2><a
+                                                                    href="/cn/enterprise-search" tabindex="-1"
+                                                                    class="jsx-2388155758 subnav-item item-link grid-2">
+                                                                <div class="jsx-2388155758 icon"><img
+                                                                        src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt526de914a5a0348c/5d07f02877f34fd558398b8b/logo-enterprise-search-24-color.svg"
+                                                                        alt="" class="jsx-2388155758"></div>
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">Elastic 企业搜索
+                                                                    </div>
+                                                                    <p class="jsx-2388155758">工作场所、网站和应用搜索</p>
+                                                                </div>
+                                                            </a><a href="/cn/observability" tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item item-link grid-2">
+                                                                <div class="jsx-2388155758 icon"><img
+                                                                        src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt619b09c4340c12d1/5e277f535e49b909a7eb99c0/logo-observability-24-color.svg"
+                                                                        alt="" class="jsx-2388155758"></div>
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">Elastic 可观测性
+                                                                    </div>
+                                                                    <p class="jsx-2388155758">统一的日志、指标和 APM 数据
+                                                                    </p>
+                                                                </div>
+                                                            </a><a href="/cn/security" tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item item-link grid-2">
+                                                                <div class="jsx-2388155758 icon"><img
+                                                                        src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt4ae3d72a75585903/5e277f2420662c553a622669/logo-security-24-color.svg"
+                                                                        alt="" class="jsx-2388155758"></div>
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">Elastic 安全</div>
+                                                                    <p class="jsx-2388155758">SIEM、端点、威胁狩猎</p>
+                                                                </div>
+                                                            </a>
+                                                            </div>
+                                                            <div class="jsx-3774780206 column">
+                                                                <div class="jsx-3774780206 elk-container">
+                                                                    <h2 class="jsx-481988444 topic-heading">Elastic
+                                                                        (ELK) Stack</h2><a href="/cn/elastic-stack"
+                                                                                           tabindex="-1"
+                                                                                           class="jsx-3774780206 d-block">
+                                                                    <div class="jsx-3774780206 elk">
+                                                                        <div
+                                                                                class="jsx-3774780206 elk-item-wrapper">
+                                                                            <div
+                                                                                    class="jsx-3774780206 elk-item">
+                                                                                        <span
+                                                                                                class="jsx-3774780206 icon"><img
+                                                                                                src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt055b6a711e45b4af/5d07f075970556dd5800c468/logo-elastic-search-24-color.svg"
+                                                                                                alt=""
+                                                                                                class="jsx-3774780206"></span><span
+                                                                                    class="jsx-3774780206 item">Elasticsearch
+                                                                                            <p class="jsx-3774780206">
+                                                                                                存储、搜索、分析</p>
+                                                                                        </span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div
+                                                                                class="jsx-3774780206 elk-item-wrapper">
+                                                                            <div
+                                                                                    class="jsx-3774780206 elk-item">
+                                                                                        <span
+                                                                                                class="jsx-3774780206 icon"><img
+                                                                                                src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/bltaeb7a6a4e9dc3735/5d07f07ddc3c021053898fa7/logo-kibana-24-color.svg"
+                                                                                                alt=""
+                                                                                                class="jsx-3774780206"></span><span
+                                                                                    class="jsx-3774780206 item">Kibana
+                                                                                            <p class="jsx-3774780206">
+                                                                                                可视化、导航、共享</p>
+                                                                                        </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                                </div>
+                                                                <a href="/cn/cloud" tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item item-link grid-2">
+                                                                    <div class="jsx-2388155758 icon"><img
+                                                                            src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/bltdb0f38c35ae455dc/5d07f086877575d0584760a3/logo-cloud-24-color.svg"
+                                                                            alt="" class="jsx-2388155758"></div>
+                                                                    <div class="jsx-2388155758 item">Microsnow Cloud
+                                                                        <p class="jsx-2388155758">托管型 Elasticsearch
+                                                                            服务</p>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div
+                                                                    class="jsx-3774780206 column feature light-mode light-mode-grey">
+                                                                <div class="jsx-3774780206 whats-new">
+                                                                    <h2 class="jsx-481988444 topic-heading">新增功能
+                                                                    </h2>
+                                                                    <div class="jsx-3774780206 content">
+                                                                        <div class="jsx-3774780206 thumbnail"><a
+                                                                                href="/cn/blog/whats-new-elastic-7-15-0?storm=nav-products-new"
+                                                                                class="jsx-3774780206"><img
+                                                                                src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt8a1bc669c29a2111/61107cfc4df16d3d6de3d961/blog-thumbnail-generic-release.png"
+                                                                                class="jsx-3774780206 img-fluid m-b-base-tight"></a>
+                                                                        </div>
+                                                                        <div class="jsx-3774780206 copy">
+                                                                            <p class="jsx-3774780206 title"><a
+                                                                                    href="/cn/blog/whats-new-elastic-7-15-0?storm=nav-products-new"
+                                                                                    class="jsx-3774780206">7.15
+                                                                                Release</a></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="jsx-3774780206 cta-group-container"><a
+                                                                        class="button m-b-tight btn-tertiary"
+                                                                        href="/cn/downloads">
+                                                                    <p class="jsx-1418753445 btn-description">
+                                                                        立即部署</p><span
+                                                                        class="jsx-1418753445 icon-tertiary"><svg
+                                                                        width="27" height="15"
+                                                                        viewBox="0 0 27 15" fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        class="jsx-1418753445">
+                                                                                    <path d="M0 7H25" stroke="#000000"
+                                                                                          stroke-width="2"
+                                                                                          class="jsx-1418753445 arrow">
+                                                                                    </path>
+                                                                                    <path d="M19 1L25 7L19 13"
+                                                                                          stroke="#000000"
+                                                                                          stroke-width="2"
+                                                                                          class="jsx-1418753445 arrow">
+                                                                                    </path>
+                                                                                </svg></span>
+                                                                </a><a class="button m-b-tight btn-tertiary"
+                                                                       href="/cn/integrations">
+                                                                    <p class="jsx-1418753445 btn-description">
+                                                                        查看集成</p><span
+                                                                        class="jsx-1418753445 icon-tertiary"><svg
+                                                                        width="27" height="15"
+                                                                        viewBox="0 0 27 15" fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        class="jsx-1418753445">
+                                                                                    <path d="M0 7H25" stroke="#000000"
+                                                                                          stroke-width="2"
+                                                                                          class="jsx-1418753445 arrow">
+                                                                                    </path>
+                                                                                    <path d="M19 1L25 7L19 13"
+                                                                                          stroke="#000000"
+                                                                                          stroke-width="2"
+                                                                                          class="jsx-1418753445 arrow">
+                                                                                    </path>
+                                                                                </svg></span>
+                                                                </a><a class="button m-b-tight btn-tertiary"
+                                                                       href="/cn/products/">
+                                                                    <p class="jsx-1418753445 btn-description">
+                                                                        查看所有产品</p><span
+                                                                        class="jsx-1418753445 icon-tertiary"><svg
+                                                                        width="27" height="15"
+                                                                        viewBox="0 0 27 15" fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        class="jsx-1418753445">
+                                                                                    <path d="M0 7H25" stroke="#000000"
+                                                                                          stroke-width="2"
+                                                                                          class="jsx-1418753445 arrow">
+                                                                                    </path>
+                                                                                    <path d="M19 1L25 7L19 13"
+                                                                                          stroke="#000000"
+                                                                                          stroke-width="2"
+                                                                                          class="jsx-1418753445 arrow">
+                                                                                    </path>
+                                                                                </svg></span>
+                                                                </a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="id_learn_menu" data-nav-item="learn"
+                                             class="jsx-3774780206 dropdown-root inactive"
+                                             style="height: 312px; width: 254px;">
+                                            <div class="jsx-3774780206 dropdown-content learn localized">
+                                                <div class="jsx-3774780206 subnav-outer-wrapper">
+                                                    <div class="jsx-3774780206 subnav-wrapper">
+                                                        <div class="jsx-3774780206 d-md-none back-btn"><a href="#"
+                                                                                                          class="jsx-3774780206">学习</a>
+                                                        </div>
+                                                        <div class="jsx-3774780206 prinav grid grid-1">
+                                                            <div class="jsx-3774780206 column"><a href="/cn/blog"
+                                                                                                  tabindex="-1"
+                                                                                                  class="jsx-2388155758 subnav-item grid-1">
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">博客</div>
+                                                                </div>
+                                                            </a><a href="/cn/guide" tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item grid-1">
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">文档</div>
+                                                                </div>
+                                                            </a><a href="/cn/events" tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item grid-1">
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">活动</div>
+                                                                </div>
+                                                            </a><a href="/cn/videos" tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item grid-1">
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">视频</div>
+                                                                </div>
+                                                            </a><a href="/cn/community" tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item grid-1">
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">社区</div>
+                                                                </div>
+                                                            </a><a href="/cn/consulting" tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item grid-1">
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">咨询</div>
+                                                                </div>
+                                                            </a><a href="/cn/training" tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item grid-1">
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">培训课程</div>
+                                                                </div>
+                                                            </a></div>
+                                                            <div
+                                                                    class="jsx-3774780206 column feature light-mode light-mode-grey">
+                                                                <div class="jsx-3774780206 whats-new">
+                                                                    <div class="jsx-3774780206 content">
+                                                                        <div class="jsx-3774780206 thumbnail"></div>
+                                                                        <div class="jsx-3774780206 copy"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="jsx-3774780206 cta-group-container">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="rtp4-mainnav-learn"
+                                                         class="jsx-1705542595 rtp justify-content-between localized">
+                                                        <p class="jsx-1705542595">有关 Elastic (ELK) Stack 升版的专家建议。
+                                                        </p><a class="button stretched-link btn-tertiary"
+                                                               href="/cn/webinars/expert-tips-when-upgrading-elk-stack">
+                                                        <p class="jsx-1418753445 btn-description">观看视频</p><span
+                                                            class="jsx-1418753445 icon-tertiary"><svg width="27"
+                                                                                                      height="15"
+                                                                                                      viewBox="0 0 27 15"
+                                                                                                      fill="none"
+                                                                                                      xmlns="http://www.w3.org/2000/svg"
+                                                                                                      class="jsx-1418753445">
+                                                                        <path d="M0 7H25" stroke="#000000"
+                                                                              stroke-width="2"
+                                                                              class="jsx-1418753445 arrow"></path>
+                                                                        <path d="M19 1L25 7L19 13" stroke="#000000"
+                                                                              stroke-width="2"
+                                                                              class="jsx-1418753445 arrow"></path>
+                                                                    </svg></span>
+                                                    </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="id_company_menu" data-nav-item="company"
+                                             class="jsx-3774780206 dropdown-root inactive"
+                                             style="height: 312px; width: 254px;">
+                                            <div class="jsx-3774780206 dropdown-content company localized">
+                                                <div class="jsx-3774780206 subnav-outer-wrapper">
+                                                    <div class="jsx-3774780206 subnav-wrapper">
+                                                        <div class="jsx-3774780206 d-md-none back-btn"><a href="#"
+                                                                                                          class="jsx-3774780206">公司</a>
+                                                        </div>
+                                                        <div class="jsx-3774780206 prinav grid grid-1">
+                                                            <div class="jsx-3774780206 column"><a href="/cn/about/"
+                                                                                                  tabindex="-1"
+                                                                                                  class="jsx-2388155758 subnav-item grid-1">
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">关于我们</div>
+                                                                </div>
+                                                            </a><a href="/cn/customers" tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item grid-1">
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">我们的客户</div>
+                                                                </div>
+                                                            </a><a href="/cn/about/careers/" tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item grid-1">
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">招贤纳士</div>
+                                                                </div>
+                                                            </a><a href="/cn/blog/" tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item grid-1">
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">新闻</div>
+                                                                </div>
+                                                            </a><a href="/cn/partners/" tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item grid-1">
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">合作伙伴</div>
+                                                                </div>
+                                                            </a><a href="https://ir.elastic.co" tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item grid-1">
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">投资者关系</div>
+                                                                </div>
+                                                            </a><a href="/cn/elasticon/elastic-search-awards"
+                                                                   tabindex="-1"
+                                                                   class="jsx-2388155758 subnav-item grid-1">
+                                                                <div class="jsx-2388155758 item">
+                                                                    <div class="jsx-2388155758">奖项</div>
+                                                                </div>
+                                                            </a></div>
+                                                            <div
+                                                                    class="jsx-3774780206 column feature light-mode light-mode-grey">
+                                                                <div class="jsx-3774780206 whats-new">
+                                                                    <div class="jsx-3774780206 content">
+                                                                        <div class="jsx-3774780206 thumbnail"></div>
+                                                                        <div class="jsx-3774780206 copy"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="jsx-3774780206 cta-group-container">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="rtp4-mainnav-company"
+                                                         class="jsx-1705542595 rtp justify-content-between localized">
+                                                        <p class="jsx-1705542595">Elastic 是一家搜索公司。了解我们的发展历程。</p><a
+                                                            class="button stretched-link btn-tertiary"
+                                                            href="/cn/videos/elastic-is-a-search-company">
+                                                        <p class="jsx-1418753445 btn-description">观看视频</p><span
+                                                            class="jsx-1418753445 icon-tertiary"><svg width="27"
+                                                                                                      height="15"
+                                                                                                      viewBox="0 0 27 15"
+                                                                                                      fill="none"
+                                                                                                      xmlns="http://www.w3.org/2000/svg"
+                                                                                                      class="jsx-1418753445">
+                                                                        <path d="M0 7H25" stroke="#000000"
+                                                                              stroke-width="2"
+                                                                              class="jsx-1418753445 arrow"></path>
+                                                                        <path d="M19 1L25 7L19 13" stroke="#000000"
+                                                                              stroke-width="2"
+                                                                              class="jsx-1418753445 arrow"></path>
+                                                                    </svg></span>
+                                                    </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <nav class="jsx-3029841567 navbar-right d-none d-md-block">
+                                <div id="navbarSupportedContent" class="jsx-3029841567 collapse navbar-collapse">
+                                    <ul class="jsx-3029841567 navbar-nav mr-auto align-items-center">
+                                        <li class="jsx-3029841567 contact"><a class="nav-link"
+                                                                              href="/cn/contact?storm=global-header-en">联系我们</a>
+                                        </li>
+                                        <!--                                        <li class="jsx-3029841567"><a class="btn-secondary btn-small"-->
+                                        <!--                                                                      href="https://cloud.elastic.co/">登录</a></li>-->
+                                        <li class="jsx-3029841567"><a class="btn-primary btn-small"
+                                                                      href="https://cloud.elastic.co/registration">免费试用</a>
+                                        </li>
+                                        <li id="searchbar" class="jsx-3029841567"><a
+                                                class="jsx-3029841567 nav-link button icon"></a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="jsx-3029841567 search-container">
+                    <div class="jsx-1593447807 container">
+                        <div class="jsx-1593447807 header-search-wrapper dark-mode dark-mode-blue">
+                            <div class="jsx-1593447807 container d-flex align-items-center">
+                                <div class="sui-layout search-wrapper">
+                                    <div class="sui-layout-header">
+                                        <div class="sui-layout-header__inner">
+                                            <div class="jsx-1593447807 input-wrapper">
+                                                <form role="combobox" aria-expanded="false" aria-haspopup="listbox"
+                                                      aria-labelledby="downshift-4-label">
+                                                    <div class="sui-search-box search-box">
+                                                        <div class="sui-search-box__wrapper">
+                                                            <div class="icon"></div>
+                                                            <input aria-autocomplete="list"
+                                                                   aria-labelledby="downshift-4-label"
+                                                                   autocomplete="off" id="downshift-4-input"
+                                                                   placeholder="" class="sui-search-box__text-input "
+                                                                   value="" style="padding-left: 40px;">
+                                                        </div>
+                                                        <a href="#" class="header-search-cancel"></a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sui-layout-body">
+                                        <div class="sui-layout-body__inner">
+                                            <div class="sui-layout-sidebar"></div>
+                                            <div class="sui-layout-main">
+                                                <div class="sui-layout-main-header">
+                                                    <div class="sui-layout-main-header__inner"></div>
+                                                </div>
+                                                <div class="sui-layout-main-body"></div>
+                                                <div class="sui-layout-main-footer"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <main class="jsx-1593447807"></main>
+                        <footer class="jsx-1593447807"></footer>
+                    </div>
+                </div>
+            </div>
+            <div class="jsx-3611784632"></div>
+        </header>
+    </div>
+
+    <main role="main">
+        <div class="jsx-3279132256 product-detail">
+            <section class="jsx-507118172 hero single-column">
+                <div class="jsx-507118172 patterns container"></div>
+                <div class="jsx-507118172 hero-content justify-content-between">
+                    <div class="jsx-507118172 container">
+                        <div class="layout layout-05"></div>
+                        <div class="jsx-507118172 row align-items-center">
+                            <div class="jsx-507118172 m-b-sm-20 col-12 col-sm-8 offset-sm-2">
+                                <div class="jsx-507118172 content">
+                                    <div class="jsx-507118172 d-flex align-items-center icon-title"><img
+                                            src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0090c6239e64faf8/5d082ba1970556dd5800c574/logo-stack-32-color.svg"
+                                            alt="icon" class="jsx-507118172 icon">
+                                        <div class="jsx-3758713709 title-wrapper"><a id="the-elastic-stack"
+                                                                                     class="jsx-3758713709"></a>
+                                            <h1 tag="H1" class="jsx-3758713709 product">The Elastic Stack</h1>
+                                        </div>
+                                    </div>
+                                    <div class="jsx-3758713709 title-wrapper"><a id="了解核心产品-—-所有均免费且开放"
+                                                                                 class="jsx-3758713709"></a>
+                                        <h2 tag="H2" class="jsx-3758713709 page-title">了解核心产品 — 所有均免费且开放</h2>
+                                    </div>
+                                    <div class="jsx-507118172 description">
+                                        <p>核心产品包括 Elasticsearch、Kibana、Beats 和 Logstash（也称为 <a
+                                                href="/cn/what-is/elk-stack">ELK
+                                            Stack</a>）。能够安全可靠地获取任何来源、任何格式的数据，然后实时地对数据进行搜索、分析和可视化。
+                                        </p>
+                                    </div>
+                                    <div class="jsx-507118172 cta-list m-t-32">
+                                        <div class="jsx-507118172 cta"><a class="button btn-primary btn-large"
+                                                                          href="https://cloud.elastic.co/registration?elektra=en-elastic-stack-page">开始免费试用</a>
+                                            <div class="jsx-507118172 footnote m-t-base-tight m-t-24">
+                                                <p>无需提供信用卡。轻松设置。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="icon-link d-inline-block m-t-24" href="/cn/start"
+                                       style="background:url(/static-res/images/svg/icon-download-blue.svg) no-repeat left center;padding-left:24px">亦可下载并开始使用</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layout layout-05"></div>
+                    </div>
+                </div>
+            </section>
+            <div class="layout layout-03"></div>
+            <section class="jsx-3234256455 cta-text-ribbon">
+                <div class="jsx-3234256455 container">
+                    <div class="jsx-3234256455 row">
+                        <div id="rtp4-textribbon1" class="jsx-3234256455 cta-text-ribbon-column col-md-4">
+                            <p class="jsx-3234256455 m-t-base-tight">参加我们的 Elasticsearch 工程师培训，为使用 Elasticsearch
+                                奠定良好的基础。</p><a class="button btn-tertiary"
+                                               href="/cn/training/elasticsearch-engineer-1">
+                            <p class="jsx-1418753445 btn-description">查看课程</p><span
+                                class="jsx-1418753445 icon-tertiary"><svg width="27" height="15"
+                                                                          viewBox="0 0 27 15" fill="none"
+                                                                          xmlns="http://www.w3.org/2000/svg"
+                                                                          class="jsx-1418753445">
+                                            <path d="M0 7H25" stroke="#000000" stroke-width="2"
+                                                  class="jsx-1418753445 arrow"></path>
+                                            <path d="M19 1L25 7L19 13" stroke="#000000" stroke-width="2"
+                                                  class="jsx-1418753445 arrow"></path>
+                                        </svg></span>
+                        </a>
+                        </div>
+                        <div id="rtp4-textribbon2" class="jsx-3234256455 cta-text-ribbon-column col-md-4">
+                            <p class="jsx-3234256455 m-t-base-tight">准备好使用 Elastic Stack 了吗？学习零中断升级的最佳实践。</p><a
+                                class="button btn-tertiary" href="/cn/webinars/upgrading-your-elastic-stack/">
+                            <p class="jsx-1418753445 btn-description">观看视频</p><span
+                                class="jsx-1418753445 icon-tertiary"><svg width="27" height="15"
+                                                                          viewBox="0 0 27 15" fill="none"
+                                                                          xmlns="http://www.w3.org/2000/svg"
+                                                                          class="jsx-1418753445">
+                                            <path d="M0 7H25" stroke="#000000" stroke-width="2"
+                                                  class="jsx-1418753445 arrow"></path>
+                                            <path d="M19 1L25 7L19 13" stroke="#000000" stroke-width="2"
+                                                  class="jsx-1418753445 arrow"></path>
+                                        </svg></span>
+                        </a>
+                        </div>
+                        <div id="rtp4-textribbon3" class="jsx-3234256455 cta-text-ribbon-column col-md-4">
+                            <p class="jsx-3234256455 m-t-base-tight">学习升级 Elastic Stack 升级的专业技巧，充分利用每个发布版本中的新功能。</p>
+                            <a class="button btn-tertiary" href="/cn/webinars/expert-tips-when-upgrading-elk-stack">
+                                <p class="jsx-1418753445 btn-description">观看视频</p><span
+                                    class="jsx-1418753445 icon-tertiary"><svg width="27" height="15"
+                                                                              viewBox="0 0 27 15" fill="none"
+                                                                              xmlns="http://www.w3.org/2000/svg"
+                                                                              class="jsx-1418753445">
+                                            <path d="M0 7H25" stroke="#000000" stroke-width="2"
+                                                  class="jsx-1418753445 arrow"></path>
+                                            <path d="M19 1L25 7L19 13" stroke="#000000" stroke-width="2"
+                                                  class="jsx-1418753445 arrow"></path>
+                                        </svg></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="layout layout-06"></div>
+            <section class="jsx-2593976997 container whats-new">
+                <div class="jsx-2593976997 content d-md-flex">
+                    <div class="jsx-2593976997 copy">
+                        <h2 class="jsx-481988444 topic-heading d-block">新增功能</h2>
+                        <p class="jsx-2593976997">在 7.15 版中，可利用 Elasticsearch 的多项优化，综合降低 Elastic Cloud 成本，加强数据弹性。
+                            另外，还可以探索最新的运行时字段功能。</p>
+                    </div>
+                    <div class="jsx-2593976997 cta"><a class="button btn-tertiary"
+                                                       href="/cn/blog/whats-new-elasticsearch-kibana-cloud-7-15-0">
+                        <p class="jsx-1418753445 btn-description">了解详情</p><span
+                            class="jsx-1418753445 icon-tertiary"><svg width="27" height="15" viewBox="0 0 27 15"
+                                                                      fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                                      class="jsx-1418753445">
+                                        <path d="M0 7H25" stroke="#000000" stroke-width="2"
+                                              class="jsx-1418753445 arrow"></path>
+                                        <path d="M19 1L25 7L19 13" stroke="#000000" stroke-width="2"
+                                              class="jsx-1418753445 arrow"></path>
+                                    </svg></span>
+                    </a></div>
+                </div>
+            </section>
+            <div class="layout layout-06"></div>
+            <div class="jsx-3622860611 title-text p-b-base-loose">
+                <div class="jsx-3622860611 container">
+                    <div class="jsx-3622860611 row">
+                        <div class="jsx-3622860611 col-md-8 offset-md-2 text-center">
+                            <h2 class="jsx-481988444 topic-heading">Elasticsearch + Kibana</h2>
+                            <div class="jsx-3758713709 title-wrapper"><a id="集强大的产品和功能于一身"
+                                                                         class="jsx-3758713709"></a>
+                                <h2 class="jsx-3758713709 ">集强大的产品和功能于一身</h2>
+                            </div>
+                            <div class="jsx-3622860611 title-text-desc">
+                                <p>Elasticsearch 和 Kibana
+                                    都是在免费开源的基础上构建而成的，适用于各种各样的用例，从日志开始，到您能想到的任何项目，无一不能胜任。Elastic 的丰富功能（诸如 <a
+                                            href="/cn/what-is/elastic-stack-machine-learning">Machine Learning</a>、<a
+                                            href="/cn/what-is/elastic-stack-security">安全</a>和 <a
+                                            href="/cn/what-is/kibana-reporting">Reporting</a>）更加凸显了其巨大价值；此外，由于这些功能是专门针对
+                                    Elastic 开发的，所以只有 Elastic 才能提供。<a href="/cn/elastic-stack/features">查看 Elastic
+                                        Stack 功能的完整列表</a>。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="layout layout-00"></div>
+            <div class="jsx-3373427483 icon-text-card-deck">
+                <div class="jsx-3373427483 container">
+                    <div class="jsx-3373427483  justify-content-center">
+                        <div class="jsx-3373427483 card-deck">
+                            <div class="jsx-43400025 d-flex col-12 col-md-4 col-lg-6">
+                                <div style="border-top:#07c;background-color:"
+                                     class="jsx-43400025 card icon-text-card m-b-base-loose text-left default-border">
+                                    <div style="border-top:6px solid #07c" class="jsx-43400025 wrapper">
+                                        <div class="jsx-43400025">
+                                            <div class="jsx-43400025 card-icon icon-32"><img
+                                                    src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt850b5bd506c6b3ce/5d0cfe28d8ff351753cbf2ad/logo-elastic-search-color-64.svg"
+                                                    alt="Elasticsearch" class="jsx-43400025 img-fluid"></div>
+                                        </div>
+                                        <div class="jsx-43400025 card-body">
+                                            <div class="jsx-43400025 card-title">
+                                                <div class="jsx-3758713709 title-wrapper"><a id="elasticsearch"
+                                                                                             class="jsx-3758713709"></a>
+                                                    <h4 tag="H4" class="jsx-3758713709 ">Elasticsearch</h4>
+                                                </div>
+                                            </div>
+                                            <div class="jsx-43400025 prod-desc">
+                                                <p>Elasticsearch 是一个基于 JSON 的分布式搜索和分析引擎。</p>
+                                            </div>
+                                        </div>
+                                        <div class="jsx-43400025 card-footer">
+                                            <div class="jsx-43400025 card-footer button-wrap test"><a
+                                                    class="button stretched-link btn-tertiary"
+                                                    href="/cn/elasticsearch">
+                                                <p class="jsx-1418753445 btn-description">了解详情</p><span
+                                                    class="jsx-1418753445 icon-tertiary"><svg width="27"
+                                                                                              height="15"
+                                                                                              viewBox="0 0 27 15"
+                                                                                              fill="none"
+                                                                                              xmlns="http://www.w3.org/2000/svg"
+                                                                                              class="jsx-1418753445">
+                                                                <path d="M0 7H25" stroke="#000000" stroke-width="2"
+                                                                      class="jsx-1418753445 arrow"></path>
+                                                                <path d="M19 1L25 7L19 13" stroke="#000000"
+                                                                      stroke-width="2" class="jsx-1418753445 arrow">
+                                                                </path>
+                                                            </svg></span>
+                                            </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jsx-43400025 d-flex col-12 col-md-4 col-lg-6">
+                                <div style="border-top:#07c;background-color:"
+                                     class="jsx-43400025 card icon-text-card m-b-base-loose text-left default-border">
+                                    <div style="border-top:6px solid #07c" class="jsx-43400025 wrapper">
+                                        <div class="jsx-43400025">
+                                            <div class="jsx-43400025 card-icon icon-32"><img
+                                                    src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt38b131256d241912/5d0cfe3a970556dd5800ebfe/logo-kibana-64-color.svg"
+                                                    alt="Kibana" class="jsx-43400025 img-fluid"></div>
+                                        </div>
+                                        <div class="jsx-43400025 card-body">
+                                            <div class="jsx-43400025 card-title">
+                                                <div class="jsx-3758713709 title-wrapper"><a id="kibana"
+                                                                                             class="jsx-3758713709"></a>
+                                                    <h4 tag="H4" class="jsx-3758713709 ">Kibana</h4>
+                                                </div>
+                                            </div>
+                                            <div class="jsx-43400025 prod-desc">
+                                                <p>Kibana 可以让您的数据变得有形有样，是一个可扩展的用户界面。
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="jsx-43400025 card-footer">
+                                            <div class="jsx-43400025 card-footer button-wrap test"><a
+                                                    class="button stretched-link btn-tertiary" href="/cn/kibana">
+                                                <p class="jsx-1418753445 btn-description">了解详情</p><span
+                                                    class="jsx-1418753445 icon-tertiary"><svg width="27"
+                                                                                              height="15"
+                                                                                              viewBox="0 0 27 15"
+                                                                                              fill="none"
+                                                                                              xmlns="http://www.w3.org/2000/svg"
+                                                                                              class="jsx-1418753445">
+                                                                <path d="M0 7H25" stroke="#000000" stroke-width="2"
+                                                                      class="jsx-1418753445 arrow"></path>
+                                                                <path d="M19 1L25 7L19 13" stroke="#000000"
+                                                                      stroke-width="2" class="jsx-1418753445 arrow">
+                                                                </path>
+                                                            </svg></span>
+                                            </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jsx-3373427483 container pl-0 pr-0 labels">
+                    <div class="jsx-3373427483 row"></div>
+                </div>
+            </div>
+            <div class="layout layout-07"></div>
+            <div class="features">
+                <section class="jsx-1032565733 text-image">
+                    <div class="jsx-1032565733 container">
+                        <div class="jsx-1032565733 content-block row align-items-center">
+                            <div class="jsx-1032565733 content col-12 col-md-5 col-sm-6">
+                                <div class="jsx-1032565733 right-content">
+                                    <h2 class="jsx-481988444 topic-heading">解决各种用例，超快无比</h2>
+                                    <div class="jsx-3758713709 title-wrapper"><a id="elasticsearch"
+                                                                                 class="jsx-3758713709"></a>
+                                        <h2 tag="H2" class="jsx-3758713709 title">Elasticsearch</h2>
+                                    </div>
+                                    <p>无论您正在查找来自特定 IP
+                                        地址的活动，还是正在分析交易请求数量为何突然飙升，或者正在方圆一公里内搜寻美食店，我们尝试解决的这些问题归根结底都是搜索。通过
+                                        Elasticsearch，您可以轻松地存储、搜索和分析大量数据。
+                                    </p>
+                                    <div class="jsx-1032565733 image d-sm-none">
+                                        <figure class="jsx-1032565733"><img
+                                                src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt0eb82f9fe9cf762a/5f7f5cb2be6df80f0910d3f7/hero-illustration-ESS-new_workflow-DARK-555x420px@2x.png"
+                                                alt="" class="jsx-1032565733 img-fluid"></figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                    class="jsx-1032565733 image col-12 col-md-6 offset-md-1 col-sm-6 d-none d-sm-block">
+                                <figure class="jsx-1032565733"><img
+                                        src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt0eb82f9fe9cf762a/5f7f5cb2be6df80f0910d3f7/hero-illustration-ESS-new_workflow-DARK-555x420px@2x.png"
+                                        alt="" class="jsx-1032565733 img-fluid"></figure>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="layout layout-07"></div>
+                <div class="jsx-3724452839 image-text">
+                    <div class="jsx-3724452839 container">
+                        <div class="jsx-3724452839 content-block row align-items-center">
+                            <div class="jsx-3724452839 image col-12 col-sm-6 d-none d-sm-block">
+                                <figure class="jsx-3724452839"><img
+                                        src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt14d57abad5d2499c/5ee0060cbf4ae52c761edcb7/illustrated-screenshot-kibana-7dot8-730x555.png"
+                                        class="jsx-3724452839 img-fluid"></figure>
+                            </div>
+                            <div class="jsx-3724452839 content col-12 col-sm-6 col-md-5 offset-md-1">
+                                <div class="jsx-3724452839 right-content">
+                                    <div class="jsx-3724452839 image d-sm-none">
+                                        <figure class="jsx-3724452839"><img
+                                                src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt14d57abad5d2499c/5ee0060cbf4ae52c761edcb7/illustrated-screenshot-kibana-7dot8-730x555.png"
+                                                class="jsx-3724452839 img-fluid"></figure>
+                                    </div>
+                                    <h2 class="jsx-481988444 topic-heading">实时互动</h2>
+                                    <div class="jsx-3758713709 title-wrapper"><a id="kibana"
+                                                                                 class="jsx-3758713709"></a>
+                                        <h2 tag="H2" class="jsx-3758713709 ">Kibana</h2>
+                                    </div>
+                                    <p>在 Kibana
+                                        中通过炫酷的可视化来探索您的数据，从华夫饼图到热点图，再到时序数据分析，应有尽有。针对多样化数据源使用预配置仪表板，创建实时演示文稿以突出显示
+                                        KPI，并使用单一 UI 来管理您的部署。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="layout layout-07"></div>
+            <div class="jsx-3622860611 title-text p-b-base-loose">
+                <div class="jsx-3622860611 container">
+                    <div class="jsx-3622860611 row">
+                        <div class="jsx-3622860611 col-md-8 offset-md-2 text-center">
+                            <h2 class="jsx-481988444 topic-heading">数据采集</h2>
+                            <div class="jsx-3758713709 title-wrapper"><a id="从所有数据源采集数据" class="jsx-3758713709"></a>
+                                <h2 class="jsx-3758713709 ">从所有数据源采集数据</h2>
+                            </div>
+                            <div class="jsx-3622860611 title-text-desc">
+                                <p>所有工作最开始都是要将数据导入到 Elasticsearch 中。您可通过各种便捷方式将全部数据集中到一起，既可使用 Elastic 代理或 Beats
+                                    采集来自应用和基础架构的指标、日志、追踪和事件，也可使用 Logstash 从第三方数据存储库中拉取数据，方法十分多样。解析、充实、匿名化、保护，等等。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="layout layout-00"></div>
+            <div class="jsx-3373427483 icon-text-card-deck">
+                <div class="jsx-3373427483 container">
+                    <div class="jsx-3373427483 ">
+                        <div class="jsx-3373427483 card-deck">
+                            <div class="jsx-43400025 d-flex col-12 col-md-4 col-lg-4">
+                                <div style="border-top:#07c;background-color:"
+                                     class="jsx-43400025 card icon-text-card m-b-base-loose text-left default-border">
+                                    <div style="border-top:6px solid #07c" class="jsx-43400025 wrapper">
+                                        <div class="jsx-43400025">
+                                            <div class="jsx-43400025 card-icon icon-32"><img
+                                                    src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt77c2da6e0198746e/60f888e77d36d059ffd3c7c6/icon-agent-32-color.svg"
+                                                    alt="Elastic 代理" class="jsx-43400025 img-fluid"></div>
+                                        </div>
+                                        <div class="jsx-43400025 card-body">
+                                            <div class="jsx-43400025 card-title">
+                                                <div class="jsx-3758713709 title-wrapper"><a id="elastic-代理"
+                                                                                             class="jsx-3758713709"></a>
+                                                    <h4 tag="H4" class="jsx-3758713709 ">Elastic 代理</h4>
+                                                </div>
+                                            </div>
+                                            <div class="jsx-43400025 prod-desc">
+                                                <p>Elastic 代理是一个一体化的代理，用于在保护主机的同时跨多个数据源采集数据。</p>
+                                            </div>
+                                        </div>
+                                        <div class="jsx-43400025 card-footer">
+                                            <div class="jsx-43400025 card-footer button-wrap test"><a
+                                                    class="button stretched-link btn-tertiary"
+                                                    href="/cn/elastic-agent">
+                                                <p class="jsx-1418753445 btn-description">了解详情</p><span
+                                                    class="jsx-1418753445 icon-tertiary"><svg width="27"
+                                                                                              height="15"
+                                                                                              viewBox="0 0 27 15"
+                                                                                              fill="none"
+                                                                                              xmlns="http://www.w3.org/2000/svg"
+                                                                                              class="jsx-1418753445">
+                                                                <path d="M0 7H25" stroke="#000000" stroke-width="2"
+                                                                      class="jsx-1418753445 arrow"></path>
+                                                                <path d="M19 1L25 7L19 13" stroke="#000000"
+                                                                      stroke-width="2" class="jsx-1418753445 arrow">
+                                                                </path>
+                                                            </svg></span>
+                                            </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jsx-43400025 d-flex col-12 col-md-4 col-lg-4">
+                                <div style="border-top:#07c;background-color:"
+                                     class="jsx-43400025 card icon-text-card m-b-base-loose text-left default-border">
+                                    <div style="border-top:6px solid #07c" class="jsx-43400025 wrapper">
+                                        <div class="jsx-43400025">
+                                            <div class="jsx-43400025 card-icon icon-32"><img
+                                                    src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt4da03cec7fcabcac/5d0cfe4b77f34fd55839b480/logo-beats-64-color.svg"
+                                                    alt="Beats" class="jsx-43400025 img-fluid"></div>
+                                        </div>
+                                        <div class="jsx-43400025 card-body">
+                                            <div class="jsx-43400025 card-title">
+                                                <div class="jsx-3758713709 title-wrapper"><a id="beats"
+                                                                                             class="jsx-3758713709"></a>
+                                                    <h4 tag="H4" class="jsx-3758713709 ">Beats</h4>
+                                                </div>
+                                            </div>
+                                            <div class="jsx-43400025 prod-desc">
+                                                <p>Beats 是一个面向轻量型采集器的平台，这些采集器可从边缘机器发送数据。</p>
+                                            </div>
+                                        </div>
+                                        <div class="jsx-43400025 card-footer">
+                                            <div class="jsx-43400025 card-footer button-wrap test"><a
+                                                    class="button stretched-link btn-tertiary" href="/cn/beats">
+                                                <p class="jsx-1418753445 btn-description">了解详情</p><span
+                                                    class="jsx-1418753445 icon-tertiary"><svg width="27"
+                                                                                              height="15"
+                                                                                              viewBox="0 0 27 15"
+                                                                                              fill="none"
+                                                                                              xmlns="http://www.w3.org/2000/svg"
+                                                                                              class="jsx-1418753445">
+                                                                <path d="M0 7H25" stroke="#000000" stroke-width="2"
+                                                                      class="jsx-1418753445 arrow"></path>
+                                                                <path d="M19 1L25 7L19 13" stroke="#000000"
+                                                                      stroke-width="2" class="jsx-1418753445 arrow">
+                                                                </path>
+                                                            </svg></span>
+                                            </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jsx-43400025 d-flex col-12 col-md-4 col-lg-4">
+                                <div style="border-top:#07c;background-color:"
+                                     class="jsx-43400025 card icon-text-card m-b-base-loose text-left default-border">
+                                    <div style="border-top:6px solid #07c" class="jsx-43400025 wrapper">
+                                        <div class="jsx-43400025">
+                                            <div class="jsx-43400025 card-icon icon-32"><img
+                                                    src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt8d79255492e03260/5d0cfe54561b9b0b537f94e8/logo-logstash-64-color.svg"
+                                                    alt="Logstash" class="jsx-43400025 img-fluid"></div>
+                                        </div>
+                                        <div class="jsx-43400025 card-body">
+                                            <div class="jsx-43400025 card-title">
+                                                <div class="jsx-3758713709 title-wrapper"><a id="logstash"
+                                                                                             class="jsx-3758713709"></a>
+                                                    <h4 tag="H4" class="jsx-3758713709 ">Logstash</h4>
+                                                </div>
+                                            </div>
+                                            <div class="jsx-43400025 prod-desc">
+                                                <p>Logstash 是动态数据收集管道，拥有可扩展的插件生态系统。</p>
+                                            </div>
+                                        </div>
+                                        <div class="jsx-43400025 card-footer">
+                                            <div class="jsx-43400025 card-footer button-wrap test"><a
+                                                    class="button stretched-link btn-tertiary" href="/cn/logstash">
+                                                <p class="jsx-1418753445 btn-description">了解详情</p><span
+                                                    class="jsx-1418753445 icon-tertiary"><svg width="27"
+                                                                                              height="15"
+                                                                                              viewBox="0 0 27 15"
+                                                                                              fill="none"
+                                                                                              xmlns="http://www.w3.org/2000/svg"
+                                                                                              class="jsx-1418753445">
+                                                                <path d="M0 7H25" stroke="#000000" stroke-width="2"
+                                                                      class="jsx-1418753445 arrow"></path>
+                                                                <path d="M19 1L25 7L19 13" stroke="#000000"
+                                                                      stroke-width="2" class="jsx-1418753445 arrow">
+                                                                </path>
+                                                            </svg></span>
+                                            </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jsx-3373427483 container pl-0 pr-0 labels">
+                    <div class="jsx-3373427483 row"></div>
+                </div>
+            </div>
+            <div class="layout layout-07"></div>
+            <section class="jsx-2917130785 ">
+                <div class="jsx-2917130785 sign-up-cta container no-form">
+                    <p class="jsx-2917130785 debug">SignUpCTA</p>
+                    <div id="rtp4-signup-cta" class="jsx-2917130785 row no-gutters">
+                        <div
+                                class="jsx-2917130785 card shadow-light col-12 col-md-10 offset-md-1 d-md-flex cta-section align-items-center">
+                            <div class="jsx-2917130785 patterns">
+                                <div style="background-image:url(https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt1b563345f4f418f3/5fbbb238fd99385ff6007eb0/pattern-cta-one-column-generic-top-left-214x214.svg)"
+                                     class="jsx-2917130785 image-left"></div>
+                                <div style="background-image:url(https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/bltd7b7eb51b9195df4/5fbbb240fd99385ff6007eb4/pattern-cta-one-column-generic-bottom-right-214x214.svg)"
+                                     class="jsx-2917130785 image-right"></div>
+                            </div>
+                            <div class="jsx-2917130785 container">
+                                <div class="jsx-2917130785 row">
+                                    <div class="jsx-2917130785 col-12 col-md-7 card-body order-xs-2 order-md-1">
+                                        <div class="jsx-3758713709 title-wrapper"><a id="在-s3、mysql-或其他系统中已经有了数据？"
+                                                                                     class="jsx-3758713709"></a>
+                                            <h3 tag="H3" class="jsx-3758713709 large">在 S3、MySQL 或其他系统中已经有了数据？</h3>
+                                        </div>
+                                        <p> 有 200 多种预构建的集成供您选择，从采集到获得见解，只需几分钟即可完成。</p><a
+                                            class="button m-t-standard stretched-link btn-primary"
+                                            href="/cn/integrations?solution=observability">查看集成</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="layout layout-07"></div>
+            <section class="jsx-1197260831 distribution light-mode dark-mode dark-mode-ink p-b-loose">
+                <div class="jsx-1197260831 patterns d-none d-md-block">
+                    <div class="jsx-1197260831 image-top-left"><img
+                            src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/bltfb62341da64ac285/5e97383cdb670a7472e0b0e9/pattern-distribution-module-top-left-mono-ink-500x500.svg"
+                            alt="" class="jsx-1197260831"></div>
+                    <div class="jsx-1197260831 image-bottom-left"><img
+                            src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/bltfebaeba7e4628d63/5e9588a9db670a7472e0aa96/pattern-distribution-module-bottom-left-mono-ink-170x170.svg"
+                            alt="" class="jsx-1197260831"></div>
+                    <div class="jsx-1197260831 image-top-right"><img
+                            src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/bltd0b4f99f9f3320db/5e9588a45ce5f45edfe35618/pattern-distribution-module-top-right-mono-ink-170x170.svg"
+                            alt="" class="jsx-1197260831"></div>
+                    <div class="jsx-1197260831 image-bottom-right"><img
+                            src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/bltd1c59a0f60ace17d/5e97384e87cf27402a57d92a/pattern-distribution-module-bottom-right-mono-ink-500x500.svg"
+                            alt="" class="jsx-1197260831"></div>
+                </div>
+                <section class="jsx-1197260831">
+                    <div class="jsx-3622860611 title-text dark-mode dark-mode-ink p-t-loose p-b-base-loose">
+                        <div class="jsx-3622860611 container">
+                            <div class="jsx-3622860611 row">
+                                <div class="jsx-3622860611 col-md-8 offset-md-2 text-center">
+                                    <h2 class="jsx-481988444 topic-heading">分发</h2>
+                                    <div class="jsx-3758713709 title-wrapper"><a id="您的部署您做主"
+                                                                                 class="jsx-3758713709"></a>
+                                        <h2 class="jsx-3758713709 ">您的部署您做主</h2>
+                                    </div>
+                                    <div class="jsx-3622860611 title-text-desc">
+                                        <p>无论您在哪里进行搜索，我们都能满足您的需求。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jsx-1197260831 container">
+                        <div class="jsx-1197260831 distribution-box distribution-box-1">
+                            <div class="jsx-1197260831 distribution-box-inside">
+                                <div class="jsx-1197260831 distribution-box-inside-top">
+                                    <h2 class="jsx-481988444 topic-heading">Elastic Cloud</h2>
+                                    <div class="jsx-3758713709 title-wrapper"><a
+                                            id="在-aws、google-cloud-和-azure-上部署托管型-elasticsearch-和-kibana"
+                                            class="jsx-3758713709"></a>
+                                        <h3 tag="H3" class="jsx-3758713709 title">在 AWS、Google Cloud 和 Azure 上部署托管型
+                                            Elasticsearch 和 Kibana</h3>
+                                    </div>
+                                    <p class="jsx-1197260831">
+                                    <p>在您所选的云服务提供商上迅速完成全套技术栈的部署。作为 Elasticsearch 的开发公司，我们为您在云端的 Elastic
+                                        集群提供多项功能和贴心支持。</p>
+                                    </p>
+                                </div>
+                                <div class="jsx-1197260831">
+                                    <div class="jsx-1197260831 distribution-box-inside-middle">
+                                        <div class="jsx-1197260831 distribution-box-inside-middle-cta">
+                                            <div class="jsx-3758713709 title-wrapper"><a id=""
+                                                                                         class="jsx-3758713709"></a>
+                                                <h6 tag="H6" class="jsx-3758713709 ">
+                                                    <p>低至 16 美元/月</p>
+                                                </h6>
+                                            </div>
+                                        </div>
+                                        <a class="button btn-tertiary" href="/cn/pricing">
+                                            <p class="jsx-1418753445 btn-description">查看定价</p><span
+                                                class="jsx-1418753445 icon-tertiary"><svg width="27" height="15"
+                                                                                          viewBox="0 0 27 15"
+                                                                                          fill="none"
+                                                                                          xmlns="http://www.w3.org/2000/svg"
+                                                                                          class="jsx-1418753445">
+                                                        <path d="M0 7H25" stroke="#000000" stroke-width="2"
+                                                              class="jsx-1418753445 arrow"></path>
+                                                        <path d="M19 1L25 7L19 13" stroke="#000000" stroke-width="2"
+                                                              class="jsx-1418753445 arrow"></path>
+                                                    </svg></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="jsx-1197260831 distribution-box-inside-bottom"><a
+                                        class="button btn-primary"
+                                        href="https://cloud.elastic.co/registration?elektra=en-elastic-stack-page">开始免费试用</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jsx-1197260831 distribution-box distribution-box-2">
+                            <div class="jsx-1197260831 distribution-box-inside">
+                                <div class="jsx-1197260831 distribution-box-inside-top">
+                                    <h2 class="jsx-481988444 topic-heading">本地部署</h2>
+                                    <div class="jsx-3758713709 title-wrapper"><a id="下载-elastic-产品"
+                                                                                 class="jsx-3758713709"></a>
+                                        <h3 tag="H3" class="jsx-3758713709 title">下载 Elastic 产品</h3>
+                                    </div>
+                                    <p>安装最新版本后，只需几步即可开始在您的设备上运行 Elastic 产品。
+                                    </p>
+                                </div>
+                                <div class="jsx-1197260831 distribution-box-inside-bottom"><a
+                                        class="button cta-box btn-primary" href="/cn/downloads">下载</a></div>
+                            </div>
+                        </div>
+                        <div class="jsx-1197260831 distribution-box-3 distribution-footnote">
+                            <p>对编排感兴趣吗？欢迎了解 <a href="/cn/ece">Elastic Cloud Enterprise</a> 和 <a
+                                    href="/cn/elasticsearch-kubernetes">Elastic Cloud on Kubernetes</a>。
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <div class="layout layout-07"></div>
+            <div class="jsx-3622860611 title-text">
+                <div class="jsx-3622860611 container">
+                    <div class="jsx-3622860611 row">
+                        <div class="jsx-3622860611 col-md-8 offset-md-2 text-center">
+                            <h2 class="jsx-481988444 topic-heading">您要探索什么内容？</h2>
+                            <div class="jsx-3758713709 title-wrapper"><a id="可观测性、安全，还有更多"
+                                                                         class="jsx-3758713709"></a>
+                                <h2 class="jsx-3758713709 ">可观测性、安全，还有更多</h2>
+                            </div>
+                            <div class="jsx-3622860611 title-text-desc">
+                                <p>Elastic Stack
+                                    为形形色色的项目提供了巨大支持，从在火星上搜索生命迹象，到通过在地图上进行缩放和筛选帮助人们找到理想的房子，再到帮助安全团队防止破坏性网络事件，都离不开
+                                    Elastic Stack。Elastic Stack 可以处理所有数据类型，我们致力于满足人们各种异想天开的想法。</p>
+                                <p>简单的事情就该简单做，所以我们构建了多种解决方案，以针对各种常见应用程序为您提供更为简单的体验。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="layout layout-00"></div>
+            <div class="image-carousel-wrapper">
+                <div class="jsx-2105591461 image-carousel container">
+                    <div class="jsx-2105591461 row">
+                        <div class="jsx-2105591461 col-12 col-sm-12 col-xl-10 offset-xl-1 carousel-container">
+                            <div class="react-tabs" data-rttabs="true">
+                                <ul class="d-flex justify-content-center flex-wrap tab-nav" role="tablist">
+                                    <li class="react-tabs__tab react-tabs__tab--selected" role="tab"
+                                        id="react-tabs-52862" aria-selected="true" aria-disabled="false"
+                                        aria-controls="react-tabs-52863" tabindex="0" data-rttab="true">
+                                        <div class="jsx-3758713709 title-wrapper"><a id="logs"
+                                                                                     class="jsx-3758713709"></a>
+                                            <h2 tag="H2" class="jsx-3758713709 content">Logs</h2>
+                                        </div>
+                                        <div class="jsx-2105591461 dotnav"></div>
+                                    </li>
+                                    <li class="react-tabs__tab" role="tab" id="react-tabs-52864"
+                                        aria-selected="false" aria-disabled="false" aria-controls="react-tabs-52865"
+                                        data-rttab="true">
+                                        <div class="jsx-3758713709 title-wrapper"><a id="metrics"
+                                                                                     class="jsx-3758713709"></a>
+                                            <h2 tag="H2" class="jsx-3758713709 content">Metrics</h2>
+                                        </div>
+                                        <div class="jsx-2105591461 dotnav"></div>
+                                    </li>
+                                    <li class="react-tabs__tab" role="tab" id="react-tabs-52866"
+                                        aria-selected="false" aria-disabled="false" aria-controls="react-tabs-52867"
+                                        data-rttab="true">
+                                        <div class="jsx-3758713709 title-wrapper"><a id="apm"
+                                                                                     class="jsx-3758713709"></a>
+                                            <h2 tag="H2" class="jsx-3758713709 content">APM</h2>
+                                        </div>
+                                        <div class="jsx-2105591461 dotnav"></div>
+                                    </li>
+                                    <li class="react-tabs__tab" role="tab" id="react-tabs-52868"
+                                        aria-selected="false" aria-disabled="false" aria-controls="react-tabs-52869"
+                                        data-rttab="true">
+                                        <div class="jsx-3758713709 title-wrapper"><a id="uptime"
+                                                                                     class="jsx-3758713709"></a>
+                                            <h2 tag="H2" class="jsx-3758713709 content">Uptime</h2>
+                                        </div>
+                                        <div class="jsx-2105591461 dotnav"></div>
+                                    </li>
+                                    <li class="react-tabs__tab" role="tab" id="react-tabs-52870"
+                                        aria-selected="false" aria-disabled="false" aria-controls="react-tabs-52871"
+                                        data-rttab="true">
+                                        <div class="jsx-3758713709 title-wrapper"><a id="siem"
+                                                                                     class="jsx-3758713709"></a>
+                                            <h2 tag="H2" class="jsx-3758713709 content">SIEM</h2>
+                                        </div>
+                                        <div class="jsx-2105591461 dotnav"></div>
+                                    </li>
+                                    <li class="react-tabs__tab" role="tab" id="react-tabs-52872"
+                                        aria-selected="false" aria-disabled="false" aria-controls="react-tabs-52873"
+                                        data-rttab="true">
+                                        <div class="jsx-3758713709 title-wrapper"><a id="endpoint"
+                                                                                     class="jsx-3758713709"></a>
+                                            <h2 tag="H2" class="jsx-3758713709 content">Endpoint</h2>
+                                        </div>
+                                        <div class="jsx-2105591461 dotnav"></div>
+                                    </li>
+                                </ul>
+                                <div class="react-tabs__tab-panel react-tabs__tab-panel--selected" role="tabpanel"
+                                     id="react-tabs-52863" aria-labelledby="react-tabs-52862">
+                                    <figure class="jsx-2105591461"><img
+                                            src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt23686306df5d16b0/5ca682626f69e6812ec33a94/screenshot-logs-ui.jpg"
+                                            alt="Logs" class="jsx-2105591461 shadow-light img-fluid onlyFadeIn">
+                                    </figure>
+                                </div>
+                                <div class="react-tabs__tab-panel" role="tabpanel" id="react-tabs-52865"
+                                     aria-labelledby="react-tabs-52864">
+                                    <figure class="jsx-2105591461"><img
+                                            src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltef163ed2752120ab/610984b4ac7fb61a3678c63d/screenshot-infrastructure-ui.png"
+                                            alt="Metrics" class="jsx-2105591461 shadow-light img-fluid onlyFadeIn">
+                                    </figure>
+                                </div>
+                                <div class="react-tabs__tab-panel" role="tabpanel" id="react-tabs-52867"
+                                     aria-labelledby="react-tabs-52866">
+                                    <figure class="jsx-2105591461"><img
+                                            src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt987465b8ebd2891b/5cd1bcf44c5fe89364167e4d/screenshot-apm-ui.jpg"
+                                            alt="APM" class="jsx-2105591461 shadow-light img-fluid onlyFadeIn">
+                                    </figure>
+                                </div>
+                                <div class="react-tabs__tab-panel" role="tabpanel" id="react-tabs-52869"
+                                     aria-labelledby="react-tabs-52868">
+                                    <figure class="jsx-2105591461"><img
+                                            src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt96b315e807da6e4f/5edff864444d25730a19f2c9/screenshot-uptime-host-availability.png"
+                                            alt="Uptime" class="jsx-2105591461 shadow-light img-fluid onlyFadeIn">
+                                    </figure>
+                                </div>
+                                <div class="react-tabs__tab-panel" role="tabpanel" id="react-tabs-52871"
+                                     aria-labelledby="react-tabs-52870">
+                                    <figure class="jsx-2105591461"><img
+                                            src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf1fec946608941d0/5d02862f210698013c6f2b0b/screenshot-siem-timeline-with-authentications-background.png"
+                                            alt="SIEM" class="jsx-2105591461 shadow-light img-fluid onlyFadeIn">
+                                    </figure>
+                                </div>
+                                <div class="react-tabs__tab-panel" role="tabpanel" id="react-tabs-52873"
+                                     aria-labelledby="react-tabs-52872">
+                                    <figure class="jsx-2105591461"><img
+                                            src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt32758009a82288a5/5f36eaa15b57446a4236bf5f/screenshot-security-host-process-tree-visualization.png"
+                                            alt="Endpoint" class="jsx-2105591461 shadow-light img-fluid onlyFadeIn">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="layout layout-07"></div>
+            <section class="jsx-3228162060 footer-cta p-b-loose dark-mode dark-mode-blue">
+                <div class="jsx-3228162060 patterns d-none d-sm-block">
+                    <div class="jsx-3228162060 image-top-left"><img
+                            src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt7087bb442520fd9a/605d19fac4f5970f34586123/pattern-footer-cta-stack-top-left-145x250-blue-bg.svg"
+                            alt="" class="jsx-3228162060"></div>
+                    <div class="jsx-3228162060 image-bottom-left"><img
+                            src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt97ddcb6e1a40392b/605cfeaf23b7510ecf1ee3e8/pattern-footer-cta-stack-bottom-left-172x90-blue-bg.svg"
+                            alt="" class="jsx-3228162060"></div>
+                    <div class="jsx-3228162060 image-top-right"><img
+                            src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt088210ac50cfb647/605d1a001bcc840f22b1cfb5/pattern-footer-cta-stack-top-right-172x90-blue-bg.svg"
+                            alt="" class="jsx-3228162060"></div>
+                    <div class="jsx-3228162060 image-bottom-right"><img
+                            src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blte3796a45e391f742/605d19ee2c06260f1e6777f0/pattern-footer-cta-stack-bottom-right-145x250-blue-bg.svg"
+                            alt="" class="jsx-3228162060"></div>
+                </div>
+                <div class="jsx-3622860611 title-text dark-mode dark-mode-blue p-t-loose">
+                    <div class="jsx-3622860611 container">
+                        <div class="jsx-3622860611 row">
+                            <div class="jsx-3622860611 col-md-8 offset-md-2 text-center">
+                                <div class="jsx-3758713709 title-wrapper"><a id="来自创建团队的托管型-elasticsearch-和-kibana"
+                                                                             class="jsx-3758713709"></a>
+                                    <h2 class="jsx-3758713709 ">来自创建团队的托管型 Elasticsearch 和 Kibana</h2>
+                                </div>
+                                <div class="jsx-3622860611 title-text-desc">
+                                    <p>快速部署 Elasticsearch Service 吧，现可免费试用 14 天。无需提供信用卡。
+                                    </p>
+                                </div>
+                                <div class="jsx-3622860611 m-t-32"><a class="button btn-primary"
+                                                                      href="https://cloud.elastic.co/registration?elektra=en-elastic-stack-page">开始免费试用</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="jsx-2483026450 footer">
+        <footer class="jsx-2483026450 footer-wrapper">
+            <div class="jsx-2483026450 container">
+                <div class="jsx-2483026450 row footer-top">
+                    <div class="jsx-2483026450 col-lg-6 col-xl-5 order-lg-12">
+                        <div class="jsx-2483026450 social-content">
+                            <div class="jsx-2483026450 mkto-form-wrapper">
+                                <div class="jsx-2483026450 form-wrapper">
+                                    <h5 class="jsx-2483026450">紧贴 Microsnow Cloud 的最新资讯</h5>
+                                    <div id="marketo-fe-form" class="jsx-3812957129 m-t-standard">
+                                        <div class="jsx-3812957129">
+                                            <p class="jsx-3812957129 debug">MarketoFEForm</p>
+                                            <form id="mktoForm_4766"
+                                                  class="jsx-3812957129 mktoForm mktoHasWidth mktoLayoutAbove"
+                                                  novalidate="novalidate"
+                                                  style="font-family: inherit; font-size: 13px; color: rgb(51, 51, 51); width: 276px;">
+                                                <style type="text/css"></style>
+                                                <div class="mktoFormRow">
+                                                    <div class="mktoFieldDescriptor mktoFormCol"
+                                                         style="margin-bottom: 5px;">
+                                                        <div class="mktoOffset" style="width: 5px;"></div>
+                                                        <div class="mktoFieldWrap mktoRequiredField"><label
+                                                                for="Email" id="LblEmail"
+                                                                class="mktoLabel mktoHasWidth"
+                                                                style="width: 270px;">
+                                                            <div class="mktoAsterix">*</div>
+                                                        </label>
+                                                            <div class="mktoGutter mktoHasWidth"
+                                                                 style="width: 5px;"></div>
+                                                            <input id="Email" name="Email" placeholder="电邮地址"
+                                                                   maxlength="255"
+                                                                   aria-labelledby="LblEmail InstructEmail"
+                                                                   type="email"
+                                                                   class="mktoField mktoEmailField mktoHasWidth mktoRequired"
+                                                                   aria-required="true" style="width: 270px;"><span
+                                                                    id="InstructEmail" tabindex="-1"
+                                                                    class="mktoInstruction"></span>
+                                                            <div class="mktoClear"></div>
+                                                        </div>
+                                                        <div class="mktoClear"></div>
+                                                    </div>
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoFormRow"><input type="hidden" name="Internal_CTA__c"
+                                                                                class="mktoField mktoFieldDescriptor mktoFormCol"
+                                                                                value="-"
+                                                                                style="margin-bottom: 5px;"><input
+                                                        type="hidden"
+                                                        name="Internal_Page__c"
+                                                        class="mktoField mktoFieldDescriptor mktoFormCol" value="-"
+                                                        style="margin-bottom: 5px;"><input type="hidden"
+                                                                                           name="Internal_Placement__c"
+                                                                                           class="mktoField mktoFieldDescriptor mktoFormCol"
+                                                                                           value="-"
+                                                                                           style="margin-bottom: 5px;"><input
+                                                        type="hidden"
+                                                        name="Ad_Source__c"
+                                                        class="mktoField mktoFieldDescriptor mktoFormCol" value="-"
+                                                        style="margin-bottom: 5px;"><input type="hidden"
+                                                                                           name="Ad_technology__c"
+                                                                                           class="mktoField mktoFieldDescriptor mktoFormCol"
+                                                                                           value="-"
+                                                                                           style="margin-bottom: 5px;"><input
+                                                        type="hidden"
+                                                        name="Marketing_Internal_Search__c"
+                                                        class="mktoField mktoFieldDescriptor mktoFormCol" value="-"
+                                                        style="margin-bottom: 5px;"><input type="hidden"
+                                                                                           name="Marketing_Page__c"
+                                                                                           class="mktoField mktoFieldDescriptor mktoFormCol"
+                                                                                           value="home"
+                                                                                           style="margin-bottom: 5px;"><input
+                                                        type="hidden" name="Marketing_CTA__c"
+                                                        class="mktoField mktoFieldDescriptor mktoFormCol" value="-"
+                                                        style="margin-bottom: 5px;"><input type="hidden"
+                                                                                           name="Marketing_Placement__c"
+                                                                                           class="mktoField mktoFieldDescriptor mktoFormCol"
+                                                                                           value="hero"
+                                                                                           style="margin-bottom: 5px;"><input
+                                                        type="hidden" name="Marketing_Technology__c"
+                                                        class="mktoField mktoFieldDescriptor mktoFormCol" value="-"
+                                                        style="margin-bottom: 5px;"><input type="hidden"
+                                                                                           name="Marketing_Term__c"
+                                                                                           class="mktoField mktoFieldDescriptor mktoFormCol"
+                                                                                           value="-"
+                                                                                           style="margin-bottom: 5px;"><input
+                                                        type="hidden"
+                                                        name="Marketing_Content__c"
+                                                        class="mktoField mktoFieldDescriptor mktoFormCol" value="-"
+                                                        style="margin-bottom: 5px;"><input type="hidden"
+                                                                                           name="Marketing_Medium__c"
+                                                                                           class="mktoField mktoFieldDescriptor mktoFormCol"
+                                                                                           value="-"
+                                                                                           style="margin-bottom: 5px;"><input
+                                                        type="hidden"
+                                                        name="Marketing_Source__c"
+                                                        class="mktoField mktoFieldDescriptor mktoFormCol" value="-"
+                                                        style="margin-bottom: 5px;"><input type="hidden"
+                                                                                           name="Marketing_Campaign__c"
+                                                                                           class="mktoField mktoFieldDescriptor mktoFormCol"
+                                                                                           value="-"
+                                                                                           style="margin-bottom: 5px;"><input
+                                                        type="hidden"
+                                                        name="Form_Source"
+                                                        class="mktoField mktoFieldDescriptor mktoFormCol"
+                                                        value="Web.co Newsletter" style="margin-bottom: 5px;">
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoFormRow"><input type="hidden" name="Ad_Campaign__c"
+                                                                                class="mktoField mktoFieldDescriptor mktoFormCol"
+                                                                                value="-"
+                                                                                style="margin-bottom: 5px;"><input
+                                                        type="hidden"
+                                                        name="Elastic_Cookie_UUID__c"
+                                                        class="mktoField mktoFieldDescriptor mktoFormCol" value=""
+                                                        style="margin-bottom: 5px;"><input type="hidden"
+                                                                                           name="GCLID__c"
+                                                                                           class="mktoField mktoFieldDescriptor mktoFormCol"
+                                                                                           value=""
+                                                                                           style="margin-bottom: 5px;"><input
+                                                        type="hidden"
+                                                        name="Form_Fill_Referrer__c"
+                                                        class="mktoField mktoFieldDescriptor mktoFormCol"
+                                                        value="https://www.elastic.co/cn/"
+                                                        style="margin-bottom: 5px;">
+                                                    <div class="mktoClear"></div>
+                                                </div>
+                                                <div class="mktoButtonRow"><span class="mktoButtonWrap mktoNative"
+                                                                                 style="margin-left: 110px;"><button
+                                                        type="submit"
+                                                        class="mktoButton">提交</button></span></div>
+                                                <input type="hidden" name="formid"
+                                                       class="mktoField mktoFieldDescriptor" value="4766"><input
+                                                    type="hidden" name="munchkinId"
+                                                    class="mktoField mktoFieldDescriptor" value="813-MAM-392">
+                                            </form>
+                                            <div class="jsx-3812957129 gdpr-text">
+                                                <p>提交即表明您同意 <a href="/cn/legal/terms-of-use">Microsnow Cloud
+                                                    的使用条款</a>。您的个人信息根据 <a
+                                                        href="/cn/legal/privacy-statement">Microsnow Cloud
+                                                    的一般隐私声明</a>将处理。
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jsx-2483026450 follow-us">
+                                <div class="jsx-2483026450 social-label">关注我们</div>
+                                <ul class="jsx-2483026450 social-icon-list">
+                                    <li class="jsx-2483026450 微博"><a href="https://www.weibo.com/6385625748"
+                                                                     id="footer_weibo"><img
+                                            src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3f3afb4fba048975/5eb00de3b8a6356e4ddc1190/footer-icon-weibo.svg"
+                                            alt="" class="jsx-2483026450 img-fluid"></a></li>
+                                    <li class="jsx-2483026450 LinkedIn"><a
+                                            href="https://www.linkedin.com/company/elastic-co"
+                                            id="footer_linkedin"><img
+                                            src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte7cfb1a091901ce1/5eb00c925751b2150e57a9d6/footer-icon-linkedin.svg"
+                                            alt="" class="jsx-2483026450 img-fluid"></a></li>
+                                </ul>
+                                <div class="jsx-2483026450 qr-code-image"><img
+                                        src="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/uploads/2021/09/2021092809311645.png"
+                                        alt="QR Code" class="jsx-2483026450 img-fluid"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jsx-2483026450 col-lg-6 col-xl-7">
+                        <div class="jsx-2483026450 row no-gutters">
+                            <div class="jsx-2483026450 col-xs-12 col-sm-4 col-lg-6">
+                                <div class="jsx-2483026450">
+                                    <h3 class="jsx-2483026450">产品</h3>
+                                    <ul class="jsx-2483026450">
+                                        <li class="jsx-2483026450"><a href="/cn/enterprise-search">企业搜索</a></li>
+                                        <li class="jsx-2483026450"><a href="/cn/observability">可观测性</a></li>
+                                        <li class="jsx-2483026450"><a href="/cn/security">安全</a></li>
+                                        <li class="jsx-2483026450"><a href="/cn/elastic-stack">Elastic Stack</a>
+                                        </li>
+                                        <li class="jsx-2483026450"><a href="/cn/elasticsearch">Elasticsearch</a>
+                                        </li>
+                                        <li class="jsx-2483026450"><a href="/cn/kibana">Kibana</a></li>
+                                        <li class="jsx-2483026450"><a href="/cn/beats">Beats</a></li>
+                                        <li class="jsx-2483026450"><a href="/cn/logstash">Logstash</a></li>
+                                        <li class="jsx-2483026450"><a href="/cn/elastic-agent">Agent</a></li>
+                                        <li class="jsx-2483026450"><a href="/cn/subscriptions">订阅</a></li>
+                                        <li class="jsx-2483026450"><a href="/cn/pricing">定价</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="jsx-2483026450 col-xs-12 col-sm-8 col-lg-6">
+                                <div class="jsx-2483026450 row no-gutters">
+                                    <div class="jsx-2483026450 col-12 col-sm-6 col-lg-12">
+                                        <h3 class="jsx-2483026450">公司</h3>
+                                        <ul class="jsx-2483026450">
+                                            <li class="jsx-2483026450"><a href="/cn/about/careers/">招贤纳士</a></li>
+                                            <li class="jsx-2483026450"><a href="/cn/about/teams/board">董事会</a></li>
+                                            <li class="jsx-2483026450"><a href="/cn/contact">联系我们</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="jsx-2483026450">
+                                        <h3 class="jsx-2483026450">资源</h3>
+                                        <ul class="jsx-2483026450 m-b-tight">
+                                            <li class="jsx-2483026450"><a href="/cn/guide/index.html">文档</a></li>
+                                            <li class="jsx-2483026450"><a href="/cn/what-is/elk-stack">ELK Stack
+                                                简介</a></li>
+                                            <li class="jsx-2483026450"><a
+                                                    href="/cn/what-is/elasticsearch">Elasticsearch 简介</a></li>
+                                            <li class="jsx-2483026450"><a href="/cn/splunk-replacement">从 Splunk
+                                                迁移</a></li>
+                                            <li class="jsx-2483026450"><a href="/cn/aws-elasticsearch-service">AWS
+                                                Elasticsearch 对比</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jsx-2483026450 social-content d-md-none mobile">
+                            <div class="jsx-2483026450 follow-us">
+                                <div class="jsx-2483026450 social-label">关注我们</div>
+                                <ul class="jsx-2483026450 social-icon-list">
+                                    <li class="jsx-2483026450 微博"><a href="https://www.weibo.com/6385625748"
+                                                                     id="footer_weibo"><img
+                                            src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt3f3afb4fba048975/5eb00de3b8a6356e4ddc1190/footer-icon-weibo.svg"
+                                            alt="" class="jsx-2483026450 img-fluid"></a></li>
+                                    <li class="jsx-2483026450 LinkedIn"><a
+                                            href="https://www.linkedin.com/company/elastic-co"
+                                            id="footer_linkedin"><img
+                                            src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte7cfb1a091901ce1/5eb00c925751b2150e57a9d6/footer-icon-linkedin.svg"
+                                            alt="" class="jsx-2483026450 img-fluid"></a></li>
+                                </ul>
+                                <div class="jsx-2483026450 qr-code-image"><img
+                                        src="https://cdn.jsdelivr.net/gh/byteflying/www.micsnow.com/uploads/2021/09/2021092809311645.png"
+                                        alt="QR Code" class="jsx-2483026450 img-fluid"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jsx-2483026450 footer-bottom">
+                    <div class="jsx-2483026450 row no-gutters">
+                        <div class="jsx-2483026450 col-xs-12 col-lg-2 language">
+                            <div class="jsx-2483026450 row no-gutters">
+                                <!-- <div
+                                class="jsx-2483026450 col-xs-12 col-sm-10 select-wrapper d-flex align-items-center justify-content-between">
+                                <div id="locale-selector" class="jsx-2483026450 align-items-center">
+                                    <p class="jsx-2483026450 label">语言</p><select data-select2-id="1"
+                                        tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
+                                        <option value="Deutsch" data-select2-id="3">Deutsch</option>
+                                        <option value="English">English</option>
+                                        <option value="Español">Español</option>
+                                        <option value="Français">Français</option>
+                                        <option value="日本語">日本語</option>
+                                        <option value="한국어">한국어</option>
+                                        <option value="简体中文">简体中文</option>
+                                        <option value="Português">Português</option>
+                                    </select><span class="select2 select2-container select2-container--default"
+                                        dir="ltr" data-select2-id="2" style="width: 102px;"><span
+                                            class="selection"><span
+                                                class="select2-selection select2-selection--single"
+                                                role="combobox" aria-haspopup="true" aria-expanded="false"
+                                                tabindex="0" aria-disabled="false"
+                                                aria-labelledby="select2-5vxe-container"><span
+                                                    class="select2-selection__rendered"
+                                                    id="select2-5vxe-container" role="textbox"
+                                                    aria-readonly="true"><span
+                                                        class="select2-selection__placeholder">简体中文</span></span><span
+                                                    class="select2-selection__arrow" role="presentation"><b
+                                                        role="presentation"></b></span></span></span><span
+                                            class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                </div>
+                            </div> -->
+                                <div
+                                        class="jsx-2483026450 logo col-sm-2 d-none d-sm-block d-lg-none align-self-end text-right">
+                                    <a href="/" class="jsx-2483026450"><img
+                                            src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt5d10f3a91df97d15/5c30744829d13af10bc2abd4/logo-elastic-vertical-reverse.svg"
+                                            alt="" class="jsx-2483026450 img-responsive"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jsx-2483026450 col-xs-12 col-lg-10 text-lg-right align-self-end text-sm-center">
+                            <ul class="jsx-2483026450 legal-links">
+                                <li class="jsx-2483026450 商标"><a href="/cn/legal/trademarks">商标</a></li>
+                                <li class="jsx-2483026450 使用条款"><a href="/cn/legal/terms-of-use">使用条款</a></li>
+                                <li class="jsx-2483026450 隐私"><a href="/cn/legal/privacy-statement">隐私</a></li>
+                                <li class="jsx-2483026450 品牌"><a href="/cn/brand">品牌</a></li>
+                                <li class="jsx-2483026450 网站地图"><a href="/cn/sitemap">网站地图</a></li>
+                            </ul>
+                            <div class="jsx-2483026450 d-none d-sm-block copyright-date">
+                                <p>© 2021. Elasticsearch B.V. 保留所有权利
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jsx-2483026450 row footnote-container">
+                        <div class="jsx-2483026450 col-xs-12 col-lg-8">
+                            <div class="jsx-2483026450 footnote text-center text-lg-left">
+                                <p>Microsnow Cloud 是 合肥微雪 的注册商标，已在中国和其他国家/地区注册。
+                                </p>
+                                <p>Apache、Apache Lucene、Apache Hadoop、Hadoop、HDFS 和黄色大象徽标是 <a
+                                        href="https://www.apache.org/">Apache 软件基金会</a>的注册商标，已在美国和/或其他国家/地区注册。
+                                </p>
+                            </div>
+                            <div class="jsx-2483026450 d-sm-none copyright-date text-center">
+                                <p>© 2021. Elasticsearch B.V. 保留所有权利
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                                class="jsx-2483026450 logo text-center col-xs-12 col-lg-1 offset-lg-3 d-sm-none d-lg-block">
+                            <a href="/" class="jsx-2483026450"><img
+                                    src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt5d10f3a91df97d15/5c30744829d13af10bc2abd4/logo-elastic-vertical-reverse.svg"
+                                    alt="" class="jsx-2483026450 img-responsive"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+
+</html>
