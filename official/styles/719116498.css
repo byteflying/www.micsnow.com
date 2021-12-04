@@ -1,0 +1,52 @@
+.text-image-card.jsx-3807580193 {
+    height: 315px;
+    padding: 16px 32px 32px;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    border-top: 1px solid #00a9e5;
+    border-right: 1px solid #00a9e5;
+    border-bottom: 1px solid #00a9e5;
+    border-left: 1px solid #00a9e5;
+    border-radius: 6px;
+}
+
+.text-image-card.jsx-3807580193 figure.jsx-3807580193 {
+    height: 60px;
+    text-align: center;
+    margin: 0;
+}
+
+.text-image-card.jsx-3807580193 img.jsx-3807580193 {
+    max-height: 60px;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.text-image-card.jsx-3807580193 .card-title.jsx-3807580193 {
+    margin-bottom: 32px;
+}
+
+.text-image-card.jsx-3807580193 .card-title.jsx-3807580193 h2 {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 16px;
+    font-weight: 700;
+}
+
+.text-image-card.jsx-3807580193 p.caption.jsx-3807580193 {
+    color: #444;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-image-card.jsx-3807580193 p.price.jsx-3807580193 {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.text-image-card.jsx-3807580193 p.jsx-3807580193 {
+    margin: 0;
+}
