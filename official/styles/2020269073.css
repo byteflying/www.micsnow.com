@@ -1,0 +1,167 @@
+.default-detail section.dark-mode:nth-last-child(2) + .layout, .default-detail section.light-mode:nth-last-child(2) + .layout, .default-detail div.dark-mode:nth-last-child(2) + .layout, .default-detail div.light-mode:nth-last-child(2) + .layout {
+    height: 0;
+}
+
+.default-detail .listing-sidebar .listing-wrapper {
+    padding-top: 32px;
+}
+
+.default-detail .listing-sidebar .listing-wrapper .header-section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 1px solid #D4DAE5;
+}
+
+.default-detail .listing-sidebar .listing-wrapper .header-section a.button {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+.default-detail .listing-sidebar .sidebar-wrapper .sidebar .content-wrapper .title a {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+
+.default-detail #dl_calculator embed {
+    height: 100vh !important;
+}
+
+.default-detail #dl_calculator .customizable_chart_header {
+    width: 100% !important;
+}
+
+.default-detail > div:not(.dark-mode):not(.light-mode):not(.layout):last-child {
+    margin-bottom: 80px;
+}
+
+.default-detail > div:not(.dark-mode):not(.light-mode):not(.layout):last-child.features {
+    margin-bottom: 0px;
+}
+
+.default-detail p.note {
+    font-size: 12px;
+    color: #343741;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+
+.default-detail .footer-cta .mkto-form-wrapper.inline.center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.default-detail .title-text h3 {
+    margin: 40px 0px 0px;
+}
+
+.default-detail .title-text h3:first-child {
+    margin-top: 20px;
+}
+
+.default-detail .icon-grid + .image, .default-detail .icon-grid + .features {
+    margin-top: -50px;
+}
+
+.default-detail .pricing {
+    margin-bottom: -40px;
+}
+
+.default-detail .image-text-grid .card-deck .card .title-text-cta.card-body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.default-detail .editorial-molecule:hover .title-link .title {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 991px) and (min-width: 481px) {
+    .listing-sidebar .sidebar-wrapper .sidebar .tab-column {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .right-column {
+        padding-top: 64px;
+    }
+
+    .editorial-molecule {
+        border-bottom: 1px solid #D4DAE5;
+        padding-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 481px) {
+    .editorial-molecule .molecule {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .editorial-molecule .molecule .thumbnail {
+        height: -webkit-max-content !important;
+        height: -moz-max-content !important;
+        height: max-content !important;
+    }
+
+    .editorial-molecule .molecule .title-link {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .listing-sidebar .listing-wrapper .header-section {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .listing-sidebar .listing-wrapper .header-section .title-wrapper {
+        text-align: center;
+    }
+
+    .editorial-molecule {
+        border-bottom: 1px solid #D4DAE5;
+        padding-bottom: 48px;
+    }
+
+    .right-column {
+        padding-top: 48px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .default-detail .common-container {
+        max-width: 255px;
+        word-break: break-word;
+    }
+}
