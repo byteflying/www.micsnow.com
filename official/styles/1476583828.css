@@ -1,1 +1,92 @@
-figure{position:relative;}.loader{background:url("/static-res/images/ajax-loader.gif") 50% 50% no-repeat;bottom:0;height:32px;left:0px;margin:auto;position:absolute;right:0px;top:0px;width:32px;}.dark-mode-blue .loader,.dark-mode-teal .loader,.dark-mode-ink .loader{background:url("/static-res/images/ajax-loader-white.gif") 50% 50% no-repeat;}@media screen and (max-width:768px){.image-carousel .carousel-container{margin-top:0;padding:20px 10px 100px;position:relative;}.image-carousel .carousel-container .react-tabs__tab-panel{margin-bottom:40px;}.image-carousel .carousel-container .tab-nav{position:absolute;bottom:40px;left:0;right:0;border-bottom:none !important;border-left:none;-webkit-box-pack:center !important;-webkit-justify-content:center !important;-ms-flex-pack:center !important;justify-content:center !important;}.image-carousel .carousel-container .tab-nav .react-tabs__tab{width:16px;border:0 !important;margin:0 10px 0 0;}.image-carousel .carousel-container .tab-nav .react-tabs__tab:last-child{margin-right:0;}.image-carousel .carousel-container .tab-nav .react-tabs__tab .content{display:none;}.image-carousel .carousel-container .tab-nav .react-tabs__tab .dotnav{top:30px;width:8px;height:8px;outline:none;position:absolute;border-radius:50%;background-color:#E6EBF2;-webkit-box-sizing:content-box;box-sizing:content-box;padding:0;}.image-carousel .carousel-container .tab-nav .react-tabs__tab--selected{border-bottom:none !important;}.image-carousel .carousel-container .tab-nav .react-tabs__tab--selected .content{display:block;position:absolute;top:-30px;left:0;right:0;text-align:center;}.image-carousel .carousel-container .tab-nav .react-tabs__tab--selected .dotnav{background-color:#0077CC;}}.dark-mode-blue .react-tabs__tab--selected .dotnav,.dark-mode-ink .react-tabs__tab--selected .dotnav,.dark-mode-teal .react-tabs__tab--selected .dotnav{background-color:#fff !important;}
+figure {
+    position: relative;
+}
+
+.loader {
+    background: url("/static-res/images/ajax-loader.gif") 50% 50% no-repeat;
+    bottom: 0;
+    height: 32px;
+    left: 0px;
+    margin: auto;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 32px;
+}
+
+.dark-mode-blue .loader, .dark-mode-teal .loader, .dark-mode-ink .loader {
+    background: url("/static-res/images/ajax-loader-white.gif") 50% 50% no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    .image-carousel .carousel-container {
+        margin-top: 0;
+        padding: 20px 10px 100px;
+        position: relative;
+    }
+
+    .image-carousel .carousel-container .react-tabs__tab-panel {
+        margin-bottom: 40px;
+    }
+
+    .image-carousel .carousel-container .tab-nav {
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        right: 0;
+        border-bottom: none !important;
+        border-left: none;
+        -webkit-box-pack: center !important;
+        -webkit-justify-content: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+
+    .image-carousel .carousel-container .tab-nav .react-tabs__tab {
+        width: 16px;
+        border: 0 !important;
+        margin: 0 10px 0 0;
+    }
+
+    .image-carousel .carousel-container .tab-nav .react-tabs__tab:last-child {
+        margin-right: 0;
+    }
+
+    .image-carousel .carousel-container .tab-nav .react-tabs__tab .content {
+        display: none;
+    }
+
+    .image-carousel .carousel-container .tab-nav .react-tabs__tab .dotnav {
+        top: 30px;
+        width: 8px;
+        height: 8px;
+        outline: none;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #E6EBF2;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        padding: 0;
+    }
+
+    .image-carousel .carousel-container .tab-nav .react-tabs__tab--selected {
+        border-bottom: none !important;
+    }
+
+    .image-carousel .carousel-container .tab-nav .react-tabs__tab--selected .content {
+        display: block;
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .image-carousel .carousel-container .tab-nav .react-tabs__tab--selected .dotnav {
+        background-color: #0077CC;
+    }
+}
+
+.dark-mode-blue .react-tabs__tab--selected .dotnav, .dark-mode-ink .react-tabs__tab--selected .dotnav, .dark-mode-teal .react-tabs__tab--selected .dotnav {
+    background-color: #fff !important;
+}

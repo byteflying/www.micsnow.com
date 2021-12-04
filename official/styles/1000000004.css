@@ -162,7 +162,7 @@
     left: 0;
 }
 
-.drift-widget-content-box>* {
+.drift-widget-content-box > * {
     margin: 0 auto;
     position: relative;
     left: 50%;
@@ -219,7 +219,7 @@
     }
 
     html.drift-widget-parent--chat-open,
-    html.drift-widget-parent--chat-open>body {
+    html.drift-widget-parent--chat-open > body {
         height: 100vh !important;
         margin: 0 !important;
         min-height: 0 !important;

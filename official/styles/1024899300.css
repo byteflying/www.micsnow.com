@@ -1,1 +1,416 @@
-.hero{position:relative;text-align:center;}.hero.single-column .icon-title{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.hero.single-column .cta-list{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.hero.single-column .right-content-container{margin:80px auto 0 auto;}.hero.single-column .hero-content img.main-img{width:100%;max-width:960px;}.hero.single-column .hero-content .content .header-logo{margin:0 auto 16px auto;}.hero.single-column .hero-content .content #marketo-fe-form .mktoForm{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.hero.two-column{text-align:left;}.hero.two-column .hero-content img.main-img{width:100%;max-height:500px;}@media screen and (max-width:768px){.hero.two-column .hero-content img.main-img{max-width:100%;padding:0 10px;}}.hero.two-column .icon-title{-webkit-box-pack:start;-webkit-justify-content:start;-ms-flex-pack:start;justify-content:start;}.hero.two-column .cta-list{-webkit-box-pack:start;-webkit-justify-content:start;-ms-flex-pack:start;justify-content:start;}.hero .patterns{display:block;position:absolute;top:0;left:0;right:0;bottom:0;}.hero .patterns:before{content:'';display:block;left:0;background:no-repeat url(https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/bltf0700cf92f742691/6014642b7957730fa57ac3e0/stack-top-left.svg);background-size:100%;margin-left:-455px;width:560px;height:300px;}.hero .patterns:after{content:'';background:no-repeat url(https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt933b538e8862d32f/6014642b0069f70f7772174d/stack-bottom-right.svg);background-size:100%;width:680px;height:400px;display:block;margin-left:auto;position:absolute;bottom:-10px;right:-483px;}.hero.two-column .patterns:before{margin-left:-625px;}.hero.two-column .patterns:after{right:-503px;}.hero .hero-content{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.hero .hero-content .content .header-logo{width:auto;max-width:250px;margin-bottom:16px;}.hero .hero-content .content .icon-title{margin-bottom:8px;max-height:32px;}.hero .hero-content .content .icon-title .icon{height:32px;width:32px;margin:0px 16px 16px 0px;}.hero .hero-content .content .btn-primary{margin-right:24px;}.hero .hero-content .content .text-link{margin-top:32px;display:inline-block;}.hero .hero-content .content .formSpecialLabel{font-size:12px;line-height:18px;position:relative;top:30px;padding-bottom:16px;margin-bottom:0;}.hero .hero-content .content .cta-list{display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.hero .hero-content .content .cta-list .cta{display:block;}.hero .hero-content .content .cta-list .cta:last-child .btn-primary{margin-right:0;}.hero .hero-content .content .cta-list .cta:nth-child(2){-webkit-align-self:start;-ms-flex-item-align:start;align-self:start;margin-top:16px;}.hero .hero-content .content .icon-download{margin-left:8px;width:16px;height:16px;}.hero .hero-content .content .footnote{font-size:12px;font-weight:400;line-height:18px;}.hero .hero-content .content .footnote a{-webkit-text-decoration:underline !important;text-decoration:underline !important;}.hero .hero-content .content .leader{margin-top:42px;}.hero .hero-content .content .leader i{background-position:center center;background-repeat:no-repeat;background-size:120% auto;border-radius:50%;display:inline-block;height:64px;width:64px;}.hero .hero-content .content .leader p.title{color:#98A2B3;}.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm .mktoFormCol .mktoFieldWrap input[type=email]{min-width:255px;}.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(de-de) .mktoButtonRow{width:100% !important;}.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(de-de) .mktoButtonRow .mktoButton{font-size:13px;min-width:unset;padding:0 8px !important;}.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(fr-fr) .mktoButtonRow,.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(ja-jp) .mktoButtonRow,.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(pt-br) .mktoButtonRow,.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(es-mx) .mktoButtonRow{width:100% !important;}.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(fr-fr) .mktoButtonRow .mktoButton,.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(ja-jp) .mktoButtonRow .mktoButton,.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(pt-br) .mktoButtonRow .mktoButton,.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(es-mx) .mktoButtonRow .mktoButton{min-width:unset;padding:0 8px !important;}.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form #mktoForm_7274.mktoForm{display:block;}.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form #mktoForm_7274.mktoForm .mktoFormRow .mktoFormCol .mktoFieldWrap select{max-width:unset !important;margin-bottom:16px;}.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form #mktoForm_7274.mktoForm .mktoFormRow .mktoFormCol textarea{margin-bottom:16px;}.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form #mktoForm_7274.mktoForm .mktoButtonRow{margin:0;}@media screen and (max-width:1599px) and (min-width:992px){.hero.single-column .patterns:before{margin-left:-455px;}}@media screen and (min-width:992px) and (max-width:1199px){.hero .content-container .content .mkto-form-wrapper #marketo-fe-form .mktoForm .mktoFormCol .mktoFieldWrap input[type=email]{min-width:200px;}.hero .content-container .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(de-de) .mktoButtonRow .mktoButton{font-size:11px;}.hero .content-container .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(fr-fr) .mktoButtonRow .mktoButton,.hero .content-container .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(ja-jp) .mktoButtonRow .mktoButton,.hero .content-container .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(ko-kr) .mktoButtonRow .mktoButton,.hero .content-container .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(pt-br) .mktoButtonRow .mktoButton,.hero .content-container .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(es-mx) .mktoButtonRow .mktoButton{font-size:14px;}}@media screen and (max-width:991px){.hero.two-column{text-align:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.hero.two-column .patterns:before{margin-left:-525px;}.hero.two-column .patterns:after{right:-482px;}.hero.two-column .hero-content .icon-title{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.hero.two-column .hero-content .cta-list{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.hero.two-column .hero-content .right-content-container{margin:0 auto;}}@media screen and (max-width:767px){.hero .patterns:after{right:-400px;width:544px;height:320px;}.hero .hero-content .single-column #marketo-fe-form .mktoForm{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:0 auto;}.hero .hero-content .single-column #marketo-fe-form .mktoForm .mktoButtonRow{left:0 !important;position:relative;width:100% !important;margin-top:16px !important;}.hero .hero-content .single-column #marketo-fe-form .mktoForm .mktoButtonRow .mktoButtonWrap{position:relative;width:100%;}.hero .hero-content .single-column #marketo-fe-form .mktoForm .mktoButtonRow .mktoButtonWrap .mktoButton{width:100%;margin-left:0 !important;}}@media screen and (max-width:576px){.hero.single-column{max-width:100% !important;}.hero.single-column #marketo-fe-form .mktoForm{display:block;}.hero .patterns:before{width:280px;height:150px;margin-left:-240px;}.hero .patterns:after{width:340px;height:200px;position:absolute;right:-255px;bottom:0;}.hero.two-column .patterns:before{margin-left:-240px;}.hero.two-column .patterns:after{right:-255px;}.hero .hero-content .content .cta-list{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin-top:16px;}.hero .hero-content .content .cta-list .cta .btn-primary{margin-right:0;}.hero .hero-content .content .cta-list .cta:nth-child(2){-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}.hero .hero-content #marketo-fe-form .mktoForm{max-width:100%;}.hero .hero-content #marketo-fe-form .gdpr-text{margin-top:16px;}}
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero.single-column .icon-title {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.hero.single-column .cta-list {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.hero.single-column .right-content-container {
+    margin: 80px auto 0 auto;
+}
+
+.hero.single-column .hero-content img.main-img {
+    width: 100%;
+    max-width: 960px;
+}
+
+.hero.single-column .hero-content .content .header-logo {
+    margin: 0 auto 16px auto;
+}
+
+.hero.single-column .hero-content .content #marketo-fe-form .mktoForm {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.hero.two-column {
+    text-align: left;
+}
+
+.hero.two-column .hero-content img.main-img {
+    width: 100%;
+    max-height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero.two-column .hero-content img.main-img {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
+
+.hero.two-column .icon-title {
+    -webkit-box-pack: start;
+    -webkit-justify-content: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+}
+
+.hero.two-column .cta-list {
+    -webkit-box-pack: start;
+    -webkit-justify-content: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+}
+
+.hero .patterns {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.hero .patterns:before {
+    content: '';
+    display: block;
+    left: 0;
+    background: no-repeat url(https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/bltf0700cf92f742691/6014642b7957730fa57ac3e0/stack-top-left.svg);
+    background-size: 100%;
+    margin-left: -455px;
+    width: 560px;
+    height: 300px;
+}
+
+.hero .patterns:after {
+    content: '';
+    background: no-repeat url(https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt933b538e8862d32f/6014642b0069f70f7772174d/stack-bottom-right.svg);
+    background-size: 100%;
+    width: 680px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    position: absolute;
+    bottom: -10px;
+    right: -483px;
+}
+
+.hero.two-column .patterns:before {
+    margin-left: -625px;
+}
+
+.hero.two-column .patterns:after {
+    right: -503px;
+}
+
+.hero .hero-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.hero .hero-content .content .header-logo {
+    width: auto;
+    max-width: 250px;
+    margin-bottom: 16px;
+}
+
+.hero .hero-content .content .icon-title {
+    margin-bottom: 8px;
+    max-height: 32px;
+}
+
+.hero .hero-content .content .icon-title .icon {
+    height: 32px;
+    width: 32px;
+    margin: 0px 16px 16px 0px;
+}
+
+.hero .hero-content .content .btn-primary {
+    margin-right: 24px;
+}
+
+.hero .hero-content .content .text-link {
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.hero .hero-content .content .formSpecialLabel {
+    font-size: 12px;
+    line-height: 18px;
+    position: relative;
+    top: 30px;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+}
+
+.hero .hero-content .content .cta-list {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.hero .hero-content .content .cta-list .cta {
+    display: block;
+}
+
+.hero .hero-content .content .cta-list .cta:last-child .btn-primary {
+    margin-right: 0;
+}
+
+.hero .hero-content .content .cta-list .cta:nth-child(2) {
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    align-self: start;
+    margin-top: 16px;
+}
+
+.hero .hero-content .content .icon-download {
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.hero .hero-content .content .footnote {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.hero .hero-content .content .footnote a {
+    -webkit-text-decoration: underline !important;
+    text-decoration: underline !important;
+}
+
+.hero .hero-content .content .leader {
+    margin-top: 42px;
+}
+
+.hero .hero-content .content .leader i {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 120% auto;
+    border-radius: 50%;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+}
+
+.hero .hero-content .content .leader p.title {
+    color: #98A2B3;
+}
+
+.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm .mktoFormCol .mktoFieldWrap input[type=email] {
+    min-width: 255px;
+}
+
+.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(de-de) .mktoButtonRow {
+    width: 100% !important;
+}
+
+.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(de-de) .mktoButtonRow .mktoButton {
+    font-size: 13px;
+    min-width: unset;
+    padding: 0 8px !important;
+}
+
+.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(fr-fr) .mktoButtonRow, .hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(ja-jp) .mktoButtonRow, .hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(pt-br) .mktoButtonRow, .hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(es-mx) .mktoButtonRow {
+    width: 100% !important;
+}
+
+.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(fr-fr) .mktoButtonRow .mktoButton, .hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(ja-jp) .mktoButtonRow .mktoButton, .hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(pt-br) .mktoButtonRow .mktoButton, .hero .hero-content .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(es-mx) .mktoButtonRow .mktoButton {
+    min-width: unset;
+    padding: 0 8px !important;
+}
+
+.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form #mktoForm_7274.mktoForm {
+    display: block;
+}
+
+.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form #mktoForm_7274.mktoForm .mktoFormRow .mktoFormCol .mktoFieldWrap select {
+    max-width: unset !important;
+    margin-bottom: 16px;
+}
+
+.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form #mktoForm_7274.mktoForm .mktoFormRow .mktoFormCol textarea {
+    margin-bottom: 16px;
+}
+
+.hero .hero-content .content .mkto-form-wrapper #marketo-fe-form #mktoForm_7274.mktoForm .mktoButtonRow {
+    margin: 0;
+}
+
+@media screen and (max-width: 1599px) and (min-width: 992px) {
+    .hero.single-column .patterns:before {
+        margin-left: -455px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .hero .content-container .content .mkto-form-wrapper #marketo-fe-form .mktoForm .mktoFormCol .mktoFieldWrap input[type=email] {
+        min-width: 200px;
+    }
+
+    .hero .content-container .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(de-de) .mktoButtonRow .mktoButton {
+        font-size: 11px;
+    }
+
+    .hero .content-container .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(fr-fr) .mktoButtonRow .mktoButton, .hero .content-container .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(ja-jp) .mktoButtonRow .mktoButton, .hero .content-container .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(ko-kr) .mktoButtonRow .mktoButton, .hero .content-container .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(pt-br) .mktoButtonRow .mktoButton, .hero .content-container .content .mkto-form-wrapper #marketo-fe-form .mktoForm:lang(es-mx) .mktoButtonRow .mktoButton {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .hero.two-column {
+        text-align: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .hero.two-column .patterns:before {
+        margin-left: -525px;
+    }
+
+    .hero.two-column .patterns:after {
+        right: -482px;
+    }
+
+    .hero.two-column .hero-content .icon-title {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .hero.two-column .hero-content .cta-list {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .hero.two-column .hero-content .right-content-container {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero .patterns:after {
+        right: -400px;
+        width: 544px;
+        height: 320px;
+    }
+
+    .hero .hero-content .single-column #marketo-fe-form .mktoForm {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .hero .hero-content .single-column #marketo-fe-form .mktoForm .mktoButtonRow {
+        left: 0 !important;
+        position: relative;
+        width: 100% !important;
+        margin-top: 16px !important;
+    }
+
+    .hero .hero-content .single-column #marketo-fe-form .mktoForm .mktoButtonRow .mktoButtonWrap {
+        position: relative;
+        width: 100%;
+    }
+
+    .hero .hero-content .single-column #marketo-fe-form .mktoForm .mktoButtonRow .mktoButtonWrap .mktoButton {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero.single-column {
+        max-width: 100% !important;
+    }
+
+    .hero.single-column #marketo-fe-form .mktoForm {
+        display: block;
+    }
+
+    .hero .patterns:before {
+        width: 280px;
+        height: 150px;
+        margin-left: -240px;
+    }
+
+    .hero .patterns:after {
+        width: 340px;
+        height: 200px;
+        position: absolute;
+        right: -255px;
+        bottom: 0;
+    }
+
+    .hero.two-column .patterns:before {
+        margin-left: -240px;
+    }
+
+    .hero.two-column .patterns:after {
+        right: -255px;
+    }
+
+    .hero .hero-content .content .cta-list {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .hero .hero-content .content .cta-list .cta .btn-primary {
+        margin-right: 0;
+    }
+
+    .hero .hero-content .content .cta-list .cta:nth-child(2) {
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        align-self: center;
+    }
+
+    .hero .hero-content #marketo-fe-form .mktoForm {
+        max-width: 100%;
+    }
+
+    .hero .hero-content #marketo-fe-form .gdpr-text {
+        margin-top: 16px;
+    }
+}

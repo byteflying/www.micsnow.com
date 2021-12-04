@@ -1,1 +1,103 @@
-.main-header.jsx-2762008650{position:relative;}.main-header.jsx-2762008650 .content.jsx-2762008650{max-width:1000px;margin-left:auto;margin-right:auto;}.main-header.jsx-2762008650 .content.jsx-2762008650 .content-wrapper.jsx-2762008650{width:50%;margin:0 auto;}.main-header.jsx-2762008650 .content.jsx-2762008650 .content-wrapper.jsx-2762008650 .large-desc.jsx-2762008650{font-size:18px;}.main-header.jsx-2762008650 .onlyFadeIn.jsx-2762008650 h1{-webkit-animation:onlyFadeIn 1s;-moz-animation:onlyFadeIn 1s;-ms-animation:onlyFadeIn 1s;-o-animation:onlyFadeIn 1s;-webkit-animation:onlyFadeIn-jsx-2762008650 1s;animation:onlyFadeIn-jsx-2762008650 1s;}@-webkit-keyframes onlyFadeIn{0%.jsx-2762008650{opacity:0;}25%.jsx-2762008650{opacity:0;}100%.jsx-2762008650{opacity:1;}}@-webkit-keyframes onlyFadeIn-jsx-2762008650{0%{opacity:0;}25%{opacity:0;}100%{opacity:1;}}@keyframes onlyFadeIn-jsx-2762008650{0%{opacity:0;}25%{opacity:0;}100%{opacity:1;}}@media screen and (max-width:768px){.main-header.jsx-2762008650 .content-wrapper.jsx-2762008650{width:80%;}}@media screen and (max-width:991px){.main-header.jsx-2762008650 .content.jsx-2762008650{max-width:900px;}}@media screen and (max-width:768px){.main-header.jsx-2762008650 .content.jsx-2762008650{max-width:600px;}}@media screen and (max-width:575px){.main-header.jsx-2762008650 .layout-03{height:0px !important;}.main-header.jsx-2762008650 .content.jsx-2762008650{max-width:300px;}.main-header.jsx-2762008650 .content.jsx-2762008650 .content-wrapper.jsx-2762008650{width:100%;}}
+.main-header.jsx-2762008650 {
+    position: relative;
+}
+
+.main-header.jsx-2762008650 .content.jsx-2762008650 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-header.jsx-2762008650 .content.jsx-2762008650 .content-wrapper.jsx-2762008650 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main-header.jsx-2762008650 .content.jsx-2762008650 .content-wrapper.jsx-2762008650 .large-desc.jsx-2762008650 {
+    font-size: 18px;
+}
+
+.main-header.jsx-2762008650 .onlyFadeIn.jsx-2762008650 h1 {
+    -webkit-animation: onlyFadeIn 1s;
+    -moz-animation: onlyFadeIn 1s;
+    -ms-animation: onlyFadeIn 1s;
+    -o-animation: onlyFadeIn 1s;
+    -webkit-animation: onlyFadeIn-jsx-2762008650 1s;
+    animation: onlyFadeIn-jsx-2762008650 1s;
+}
+
+@-webkit-keyframes onlyFadeIn {
+0% . jsx-2762008650
+
+{
+    opacity: 0
+;
+}
+25
+%
+.jsx-2762008650 {
+    opacity: 0;
+}
+
+100
+%
+.jsx-2762008650 {
+    opacity: 1;
+}
+
+}
+@-webkit-keyframes onlyFadeIn-jsx-2762008650 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes onlyFadeIn-jsx-2762008650 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-header.jsx-2762008650 .content-wrapper.jsx-2762008650 {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .main-header.jsx-2762008650 .content.jsx-2762008650 {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-header.jsx-2762008650 .content.jsx-2762008650 {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .main-header.jsx-2762008650 .layout-03 {
+        height: 0px !important;
+    }
+
+    .main-header.jsx-2762008650 .content.jsx-2762008650 {
+        max-width: 300px;
+    }
+
+    .main-header.jsx-2762008650 .content.jsx-2762008650 .content-wrapper.jsx-2762008650 {
+        width: 100%;
+    }
+}

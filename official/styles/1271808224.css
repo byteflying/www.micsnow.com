@@ -1,1 +1,218 @@
-.icon-text-card.card{border-radius:10px;border:none;overflow:hidden;margin:0px;margin-bottom:0px !important;-moz-transition:box-shadow 0.4s ease;-webkit-transition:box-shadow 0.4s ease;-o-transition:box-shadow 0.4s ease;-ms-transition:box-shadow 0.4s ease;-webkit-transition:box-shadow 0.4s ease;transition:box-shadow 0.4s ease;}.icon-text-card.card.default-border{border:1px solid #D4DAE5;}.icon-text-card.card:hover{-moz-box-shadow:0px 5px 24px rgba(0,0,0,0.12);-webkit-box-shadow:0px 5px 24px rgba(0,0,0,0.12);-o-box-shadow:0px 5px 24px rgba(0,0,0,0.12);-ms-box-shadow:0px 5px 24px rgba(0,0,0,0.12);box-shadow:0px 5px 24px rgba(0,0,0,0.12);}.icon-text-card.card .patterns{display:block;position:absolute;top:0;left:0;right:0;bottom:0;}.icon-text-card.card .patterns:after{content:'';display:block;left:0;background:no-repeat url(undefined);background-size:100%;position:relative;width:100%;height:100%;}.icon-text-card.card .wrapper{padding:32px;-webkit-flex:1 0 0%;-ms-flex:1 0 0%;flex:1 0 0%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.icon-text-card.card .card-icon{position:relative;}.icon-text-card.card .card-icon img{height:64px;margin:0px 16px 16px 0px;}.icon-text-card.card .card-icon.icon-32 img{height:32px;}.icon-text-card.card .quote-author{font-weight:700;}.icon-text-card.card .card-body{padding:0;}.icon-text-card.card .card-footer{background:none;padding:0;border:0;}.icon-text-card.card .card-footer-group{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.icon-text-card.card .btn-tertiary{padding-top:16px;margin-bottom:8px;}.icon-text-card.card .card-header{background:none;padding:0;border-bottom:0px none;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.icon-text-card.card .card-title{margin-bottom:0;word-break:break-word;}.icon-text-card.card .label{display:none;}.icon-text-card.card .cta-list{position:relative;}.icon-text-card.card .cta-list li{padding:8px 0 8px 0px;position:relative;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.icon-text-card.card .cta-list li .list-circle{background:#fff;height:6px;margin:10px 20px 0px 0px;min-height:6px;min-width:6px;position:relative;width:6px;border-top:1px solid #0077CC;border-right:1px solid #0077CC;border-bottom:1px solid #0077CC;border-left:1px solid #0077CC;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;}.icon-text-card.card .cta-list li:first-of-type .connector{display:none;}.icon-text-card.card .cta-list li:not(:first-of-type) .connector{left:3px;position:absolute;}.icon-text-card.card .cta-list li:not(:first-of-type) .connector:before{content:'';height:inherit;left:50%;margin-left:-1px;position:absolute;top:unset;border-left:1px solid #DCE1EA;}.icon-text-card.card .cta-list li .list-arrow{position:relative;}.icon-text-card.card .cta-list li .list-arrow:before{content:"";height:8px;margin-left:5px;position:absolute;top:6px;width:8px;border-right:2px solid #0077CC;border-bottom:2px solid #0077CC;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);}.icon-text-card.card .cta-list li a{-webkit-text-decoration:none;text-decoration:none;}:lang(fr-fr) .icon-text-card.card{word-break:break-word;}@media screen and (max-width:991px){.icon-text-card.card .label{display:block;margin:0 0 24px 0;border-top:none;}.icon-text-card.card .card-footer .btn-primary{min-width:unset;}}
+.icon-text-card.card {
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    margin: 0px;
+    margin-bottom: 0px !important;
+    -moz-transition: box-shadow 0.4s ease;
+    -webkit-transition: box-shadow 0.4s ease;
+    -o-transition: box-shadow 0.4s ease;
+    -ms-transition: box-shadow 0.4s ease;
+    -webkit-transition: box-shadow 0.4s ease;
+    transition: box-shadow 0.4s ease;
+}
+
+.icon-text-card.card.default-border {
+    border: 1px solid #D4DAE5;
+}
+
+.icon-text-card.card:hover {
+    -moz-box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.12);
+    -o-box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.12);
+    -ms-box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.12);
+}
+
+.icon-text-card.card .patterns {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.icon-text-card.card .patterns:after {
+    content: '';
+    display: block;
+    left: 0;
+    background: no-repeat url(undefined);
+    background-size: 100%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.icon-text-card.card .wrapper {
+    padding: 32px;
+    -webkit-flex: 1 0 0%;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.icon-text-card.card .card-icon {
+    position: relative;
+}
+
+.icon-text-card.card .card-icon img {
+    height: 64px;
+    margin: 0px 16px 16px 0px;
+}
+
+.icon-text-card.card .card-icon.icon-32 img {
+    height: 32px;
+}
+
+.icon-text-card.card .quote-author {
+    font-weight: 700;
+}
+
+.icon-text-card.card .card-body {
+    padding: 0;
+}
+
+.icon-text-card.card .card-footer {
+    background: none;
+    padding: 0;
+    border: 0;
+}
+
+.icon-text-card.card .card-footer-group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.icon-text-card.card .btn-tertiary {
+    padding-top: 16px;
+    margin-bottom: 8px;
+}
+
+.icon-text-card.card .card-header {
+    background: none;
+    padding: 0;
+    border-bottom: 0px none;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.icon-text-card.card .card-title {
+    margin-bottom: 0;
+    word-break: break-word;
+}
+
+.icon-text-card.card .label {
+    display: none;
+}
+
+.icon-text-card.card .cta-list {
+    position: relative;
+}
+
+.icon-text-card.card .cta-list li {
+    padding: 8px 0 8px 0px;
+    position: relative;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.icon-text-card.card .cta-list li .list-circle {
+    background: #fff;
+    height: 6px;
+    margin: 10px 20px 0px 0px;
+    min-height: 6px;
+    min-width: 6px;
+    position: relative;
+    width: 6px;
+    border-top: 1px solid #0077CC;
+    border-right: 1px solid #0077CC;
+    border-bottom: 1px solid #0077CC;
+    border-left: 1px solid #0077CC;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.icon-text-card.card .cta-list li:first-of-type .connector {
+    display: none;
+}
+
+.icon-text-card.card .cta-list li:not(:first-of-type) .connector {
+    left: 3px;
+    position: absolute;
+}
+
+.icon-text-card.card .cta-list li:not(:first-of-type) .connector:before {
+    content: '';
+    height: inherit;
+    left: 50%;
+    margin-left: -1px;
+    position: absolute;
+    top: unset;
+    border-left: 1px solid #DCE1EA;
+}
+
+.icon-text-card.card .cta-list li .list-arrow {
+    position: relative;
+}
+
+.icon-text-card.card .cta-list li .list-arrow:before {
+    content: "";
+    height: 8px;
+    margin-left: 5px;
+    position: absolute;
+    top: 6px;
+    width: 8px;
+    border-right: 2px solid #0077CC;
+    border-bottom: 2px solid #0077CC;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.icon-text-card.card .cta-list li a {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+
+:lang(fr-fr) .icon-text-card.card {
+    word-break: break-word;
+}
+
+@media screen and (max-width: 991px) {
+    .icon-text-card.card .label {
+        display: block;
+        margin: 0 0 24px 0;
+        border-top: none;
+    }
+
+    .icon-text-card.card .card-footer .btn-primary {
+        min-width: unset;
+    }
+}
