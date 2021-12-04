@@ -55,14 +55,14 @@
 
 .hero.two-column .icon-title {
     -webkit-box-pack: start;
-    -webkit-justify-content: start;
+    -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: start;
 }
 
 .hero.two-column .cta-list {
     -webkit-box-pack: start;
-    -webkit-justify-content: start;
+    -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: start;
 }
@@ -80,7 +80,7 @@
     content: '';
     display: block;
     left: 0;
-    background: no-repeat url();
+    /*background: no-repeat url();*/
     background-size: 100%;
     margin-left: -455px;
     width: 560px;
@@ -89,7 +89,7 @@
 
 .hero .patterns:after {
     content: '';
-    background: no-repeat url();
+    /*background: no-repeat url();*/
     background-size: 100%;
     width: 680px;
     height: 400px;
@@ -177,7 +177,7 @@
 }
 
 .hero .hero-content .content .cta-list .cta:nth-child(2) {
-    -webkit-align-self: start;
+    -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: start;
     margin-top: 16px;
