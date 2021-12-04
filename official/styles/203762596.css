@@ -1,0 +1,149 @@
+.editorial-molecule {
+    position: relative;
+}
+
+.editorial-molecule .molecule {
+    cursor: pointer;
+}
+
+.editorial-molecule .molecule .thumbnail {
+    margin: 0 32px 0 0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    width: 128px;
+    min-width: 128px;
+    height: 80px;
+    border: 1px solid #e6ebf2;
+}
+
+.editorial-molecule .molecule .thumbnail img {
+    -webkit-transition: -webkit-transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+    -webkit-transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.editorial-molecule .molecule .title-link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.editorial-molecule .molecule .title-link .text {
+    -webkit-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+}
+
+.editorial-molecule:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.editorial-molecule.xsmall .molecule .thumbnail {
+    min-width: 103px;
+    width: 103px;
+    height: 65px;
+}
+
+.editorial-molecule.small .molecule .thumbnail {
+    min-width: 130px;
+    width: 130px;
+    height: 81px;
+}
+
+.editorial-molecule.medium .molecule .thumbnail {
+    min-width: 235px;
+    width: 235px;
+    height: 137px;
+}
+
+.editorial-molecule.large .molecule .thumbnail {
+    min-width: 241px;
+    width: 241px;
+    height: 141px;
+}
+
+.editorial-molecule.xlarge .molecule .thumbnail {
+    min-width: 590px;
+    width: 590px;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .editorial-molecule .molecule.reverse-layout {
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .editorial-molecule .molecule.reverse-layout .thumbnail {
+        margin: 0 0 0 32px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .editorial-molecule.xlarge .molecule .thumbnail {
+        min-width: 550px;
+        width: 550px;
+    }
+
+    .editorial-molecule.xlarge .molecule .thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .editorial-molecule.xlarge .molecule .thumbnail {
+        min-width: 380px;
+        width: 380px;
+    }
+
+    .editorial-molecule.xlarge .molecule .thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .editorial-molecule.xsmall .molecule .thumbnail, .editorial-molecule.small .molecule .thumbnail, .editorial-molecule.medium .molecule .thumbnail, .editorial-molecule.large .molecule .thumbnail, .editorial-molecule.xlarge .molecule .thumbnail {
+        width: 100%;
+        height: auto;
+        min-width: unset;
+    }
+
+    .editorial-molecule.xsmall .molecule .thumbnail img, .editorial-molecule.small .molecule .thumbnail img, .editorial-molecule.medium .molecule .thumbnail img, .editorial-molecule.large .molecule .thumbnail img, .editorial-molecule.xlarge .molecule .thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+
+    .editorial-molecule .molecule .thumbnail {
+        width: 100%;
+        height: auto;
+    }
+
+    .editorial-molecule .molecule .thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+
+    .editorial-molecule .molecule .title-link {
+        margin: 16px 0 0 0;
+    }
+
+    .editorial-molecule .molecule .title-link .title {
+        -webkit-flex: 0 !important;
+        -ms-flex: 0 !important;
+        flex: 0 !important;
+    }
+}

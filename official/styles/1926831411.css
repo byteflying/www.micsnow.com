@@ -1,0 +1,262 @@
+.contact-redesign #fallback-form form.fallback .submit-form {
+    width: 100%;
+}
+
+.contact-redesign #marketo-fe-form .mktoForm .mktoFieldWrap #allowed_share_info_with_partner__c, .contact-redesign #marketo-fe-form .mktoForm .mktoFieldWrap #tempCheckBoxforForm {
+    position: absolute;
+    top: 6px;
+    display: content;
+}
+
+.contact-redesign #marketo-fe-form .mktoForm .mktoLabel[for="allowed_share_info_with_partner__c"], .contact-redesign #marketo-fe-form .mktoForm .mktoLabel[for="tempCheckBoxforForm"] {
+    margin-left: 32px;
+}
+
+.contact-redesign #marketo-fe-form .mktoForm .mktoFieldWrap {
+    margin-bottom: 24px;
+}
+
+.contact-redesign #marketo-fe-form .mktoForm .mktoFieldWrap input[type='checkbox']:checked:before {
+    left: 4px;
+    top: -1px;
+}
+
+.contact-redesign #marketo-fe-form .mktoForm .mktoFieldWrap input[type='checkbox']:after {
+    height: 18px;
+    width: 18px;
+}
+
+.contact-redesign:lang(zh-cn) #marketo-fe-form .mktoForm .mktoFieldWrap .mktoCheckboxList.mktoHasWidth.mktoRequired {
+    position: relative;
+    bottom: 0px;
+}
+
+.contact-redesign:lang(zh-cn) #marketo-fe-form .mktoForm .mktoFieldWrap .mktoCheckboxList.mktoHasWidth {
+    position: absolute;
+    bottom: 26px;
+}
+
+.contact-redesign:lang(zh-cn) #marketo-fe-form .mktoForm .mktoFieldWrap textarea {
+    margin-bottom: 0;
+}
+
+.contact-redesign:lang(pt-br) #marketo-fe-form .mktoForm .mktoFieldWrap textarea {
+    margin-bottom: 0;
+}
+
+.contact-redesign .image-text-grid .card-deck {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.contact-redesign .image-text-grid .icon-general figure {
+    text-align: center !important;
+}
+
+.contact-redesign .image-text-grid .title-text-cta {
+    text-align: center;
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-panel .icon-checkmark {
+    margin: -1px 8px 0 0;
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-panel .tab-title h3 {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 800;
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    border-bottom: 0;
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list .active-tab {
+    position: absolute;
+    width: px;
+    height: 100%;
+    background: rgba(0, 119, 204, 0.05);
+    border-radius: 10px;
+    -webkit-transition: all 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+    transition: all 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+    -webkit-animation: snapback;
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li {
+    padding: 16px;
+    cursor: pointer;
+    -webkit-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    z-index: 1;
+    position: relative;
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li[data-id="0"].react-tabs__tab--selected ~ .active-tab {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li[data-id="1"].react-tabs__tab--selected ~ .active-tab {
+    -webkit-transform: translateX(px);
+    -ms-transform: translateX(px);
+    transform: translateX(px);
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li[data-id="2"].react-tabs__tab--selected ~ .active-tab {
+    -webkit-transform: translateX(px);
+    -ms-transform: translateX(px);
+    transform: translateX(px);
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li:focus {
+    outline: none;
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li .tabs-data p {
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li .tabs-data h4, .contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li .tabs-data h6 {
+    padding: 0;
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li:not(:last-child) {
+    margin-right: 24px;
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li.react-tabs__tab--selected {
+    cursor: text;
+    border-bottom: 0;
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li.react-tabs__tab--selected:hover {
+    -webkit-transform: unset;
+    -ms-transform: unset;
+    transform: unset;
+    border-bottom: 0;
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li.react-tabs__tab--selected h6 {
+    color: #0077CC;
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li:hover {
+    border-bottom: 0;
+}
+
+.contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li:hover h6 {
+    color: #0077CC;
+}
+
+.contact-redesign .offices-section .react-tabs ul.react-tabs__tab-list {
+    margin: 0 auto;
+    width: 350px;
+    border-bottom: 1px solid #d4dae5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.contact-redesign .offices-section .react-tabs ul.react-tabs__tab-list li {
+    margin: 0 20px;
+    padding: 0;
+    color: #343741;
+    cursor: pointer;
+    margin-bottom: -2px;
+    font-size: 16px;
+    line-height: 26px;
+    border-bottom: 3px solid transparent;
+}
+
+.contact-redesign .offices-section .react-tabs ul.react-tabs__tab-list li:focus {
+    outline: none;
+}
+
+.contact-redesign .offices-section .react-tabs ul.react-tabs__tab-list li.react-tabs__tab--selected {
+    color: #0077CC;
+    cursor: text;
+    display: block;
+    margin-bottom: -2px;
+    border-bottom: 3px solid #0077CC;
+}
+
+.contact-redesign .offices-section .react-tabs ul.react-tabs__tab-list li.react-tabs__tab--selected h6 {
+    color: #0077CC;
+}
+
+.contact-redesign .offices-section .react-tabs ul.react-tabs__tab-list li.react-tabs__tab--selected:hover {
+    border-bottom: 3px solid #0077CC;
+}
+
+.contact-redesign .offices-section .react-tabs ul.react-tabs__tab-list li:hover {
+    border-bottom: 3px solid #343741;
+}
+
+.contact-redesign .offices-section .regions-wrapper .region-title {
+    padding-bottom: 8px;
+}
+
+.contact-redesign .offices-section .headquarter-section .numbers-section .phone-numbers {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li:not(:last-child) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contact-redesign .numbers-section [class*="col-"], .contact-redesign .regions-wrapper [class*="col-"] {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .contact-redesign:lang(zh-cn) #marketo-fe-form .mktoForm .mktoFieldWrap .mktoCheckboxList.mktoHasWidth {
+        bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .contact-redesign .offices-section .react-tabs ul.react-tabs__tab-list {
+        width: 100%;
+    }
+
+    .contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li {
+        padding: 14px;
+    }
+
+    .contact-redesign .tabs-section .react-tabs .react-tabs__tab-list li:not(:last-child) {
+        margin-right: 0;
+    }
+}
