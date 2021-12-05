@@ -1,0 +1,19 @@
+.title-text-cta.card-body {
+    padding: 0;
+}
+
+.title-text-cta.card-body .description {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.title-text-cta.card-body ol {
+    padding-left: 20px;
+}
+
+.card-footer {
+    background: none;
+    padding: 0;
+    border: none;
+}
