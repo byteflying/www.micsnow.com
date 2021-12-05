@@ -1,0 +1,61 @@
+.downloads .icon-text-card .product-col .card-icon {
+    -webkit-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+}
+
+.downloads .downloads-container {
+    position: relative;
+}
+
+.downloads .downloads-container .download-section ul li, .downloads .downloads-container .plugin-section ul li {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+.downloads .downloads-container .download-section .product-col, .downloads .downloads-container .plugin-section .product-col {
+    margin-bottom: 40px;
+}
+
+.downloads .downloads-container .download-section .product-col .product-inside .prod-desc, .downloads .downloads-container .plugin-section .product-col .product-inside .prod-desc {
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .downloads .downloads-container .download-section .product-col .product-inside {
+        overflow: hidden;
+        word-break: break-word;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .downloads .downloads-container .download-section .product-col .product-inside {
+        overflow: hidden;
+        word-break: break-word;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .downloads .downloads-container .download-section li:nth-child(4n+1), .downloads .downloads-container .download-section .plugin-section li:nth-child(4n+1) {
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    :lang(fr-fr) .icon-text-card .product-inside {
+        padding: 30px 0px;
+    }
+
+    :lang(es-mx) .icon-text-card .product-inside {
+        padding: 30px 0px;
+    }
+
+    :lang(es-mx) .icon-text-card .product-inside .card-title h3 {
+        font-size: 23px;
+    }
+}
