@@ -1,0 +1,271 @@
+.downloads-detail.jsx-3349234328 .main-header-wrapper.jsx-3349234328 {
+    position: relative;
+    padding: 64px 0px 0px;
+}
+
+.downloads-detail.jsx-3349234328 .main-header-wrapper.jsx-3349234328 .patterns.jsx-3349234328 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.downloads-detail.jsx-3349234328 .main-header-wrapper.jsx-3349234328 .patterns.jsx-3349234328:before {
+    content: '';
+    display: block;
+    left: 0;
+    background: no-repeat url(https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt8d8a47b0bda71e1e/60412d88c7198e3af48f726d/generic-top-left.svg);
+    background-size: 100%;
+    margin-left: -625px;
+    width: 560px;
+    height: 300px;
+}
+
+.downloads-detail.jsx-3349234328 .main-header-wrapper.jsx-3349234328 .patterns.jsx-3349234328:after {
+    content: '';
+    background: no-repeat url(https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt9f40c83ad2785983/6011c55b3e567f1011da3dce/generic-bottom-right.svg);
+    background-size: 100%;
+    width: 680px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    position: absolute;
+    bottom: -105px;
+    right: -503px;
+}
+
+.downloads-detail.jsx-3349234328 .callout.jsx-3349234328 {
+    border-left: 3px solid #07c;
+    border-radius: 6px;
+    background-color: #f5f7fa;
+    padding: 16px;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 {
+    padding-left: 16px;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .platform-cta.jsx-3349234328 {
+    position: relative;
+    margin: 16px 0;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 {
+    padding-left: 30px;
+    position: relative;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .packages.jsx-3349234328 .platform-btn.jsx-3349234328 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .packages.jsx-3349234328 .platform-btn.jsx-3349234328 img.jsx-3349234328 {
+    margin-right: 8px;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .packages.jsx-3349234328 .platform-btn.jsx-3349234328 a.jsx-3349234328 {
+    margin-right: 16px;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .step-number.jsx-3349234328 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #005a9e;
+    left: -17px;
+    top: 1px;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .package-managers.jsx-3349234328 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .package-managers.jsx-3349234328 .pkg-manager.jsx-3349234328 {
+    position: relative;
+    margin: 0 16px 16px 0;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .package-managers.jsx-3349234328 .pkg-manager.jsx-3349234328 img.jsx-3349234328 {
+    margin: 0 8px 0 0;
+    width: 16px;
+    height: 16px;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .containers.jsx-3349234328, .downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .cta-group.jsx-3349234328 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .code-block.jsx-3349234328 .code.jsx-3349234328 {
+    position: relative;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .code-block.jsx-3349234328 .input-group-btn.jsx-3349234328 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .code-block.jsx-3349234328 .input-group-btn.jsx-3349234328 .tooltip-wrapper.jsx-3349234328 .copy-cta.jsx-3349234328 {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .code-block.jsx-3349234328 .input-group-btn.jsx-3349234328 .tooltip-wrapper.jsx-3349234328 .copy-cta.jsx-3349234328 span.jsx-3349234328 {
+    color: #0077CC;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .code-block.jsx-3349234328 .input-group-btn.jsx-3349234328 .tooltip-wrapper.jsx-3349234328 .tooltip-text.jsx-3349234328 {
+    position: absolute;
+    background-color: #00000094;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 6px;
+    top: 41px;
+    right: 0;
+    white-space: nowrap;
+    display: none;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .code-block.jsx-3349234328 .input-group-btn.jsx-3349234328 .tooltip-wrapper.jsx-3349234328 .tooltip-text.jsx-3349234328::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 30px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .code-block.jsx-3349234328 .input-group-btn.jsx-3349234328 .tooltip-wrapper.jsx-3349234328:hover .tooltip-text.jsx-3349234328 {
+    display: block;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .code-block.jsx-3349234328 .input-group-btn.jsx-3349234328 img.jsx-3349234328 {
+    margin: 0 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .code-block.jsx-3349234328 .code.jsx-3349234328 .form-control-wrapper.jsx-3349234328 {
+    padding: 0 16px;
+    background-color: #F5F7FA;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328 .code-block.jsx-3349234328 .code.jsx-3349234328 .form-control.jsx-3349234328 {
+    padding: 0;
+    border: none;
+    height: 80px;
+    margin-bottom: 8px;
+    background-color: #F5F7FA;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 0;
+    color: #535966;
+    white-space: nowrap;
+    overflow-x: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.downloads-detail.jsx-3349234328 .installation-steps.jsx-3349234328 .steps-wrapper.jsx-3349234328:not(:last-child) {
+    border-left: 1px solid #d4dae5;
+}
+
+.downloads-detail.jsx-3349234328 .card-sidebar.jsx-3349234328 .summary.jsx-3349234328 {
+    background-color: #fff;
+    border: 1px solid #d4dae5;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+@media screen and (max-width: 1399px) and (min-width: 992px) {
+    .downloads-detail.jsx-3349234328 .main-header-wrapper.jsx-3349234328 .patterns.jsx-3349234328:before {
+        margin-left: -570px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .downloads-detail.jsx-3349234328 .main-header-wrapper.jsx-3349234328 .patterns.jsx-3349234328:before {
+        margin-left: -525px;
+    }
+
+    .downloads-detail.jsx-3349234328 .main-header-wrapper.jsx-3349234328 .patterns.jsx-3349234328:after {
+        right: -482px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .downloads-detail.jsx-3349234328 .spacing.jsx-3349234328 {
+        padding-right: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .downloads-detail.jsx-3349234328 .main-header-wrapper.jsx-3349234328 .patterns.jsx-3349234328 {
+        display: none;
+    }
+}

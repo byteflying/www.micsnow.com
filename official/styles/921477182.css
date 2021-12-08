@@ -1,0 +1,125 @@
+.downloads-detail .select2-container, .downloads-detail .select2-container--default {
+    max-width: 200px;
+    width: 100% !important;
+}
+
+.downloads-detail .installation-steps .steps-wrapper p {
+    margin-bottom: 0;
+}
+
+.downloads-detail .installation-steps .steps-wrapper h4 {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 16px;
+    font-weight: 700;
+}
+
+.downloads-detail .installation-steps .steps-wrapper h5 {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 16px;
+    font-weight: 700;
+}
+
+.downloads-detail .installation-steps .steps-wrapper .packages .platform-btn a {
+    margin-right: 16px;
+}
+
+.downloads-detail .installation-steps .steps-wrapper .step-number h5 {
+    color: #fff;
+    padding: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.downloads-detail .icon-text-card-deck .card-wrap:first-child .card-body {
+    color: #fff;
+}
+
+.downloads-detail .icon-text-card-deck .card-wrap:first-child .card-body .card-title h4 {
+    color: #fff;
+}
+
+.downloads-detail .card-sidebar .summary h4 {
+    padding: 0;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.downloads-detail .callout p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.downloads-detail .react-tabs ul.download-tabs {
+    border-bottom: 1px solid #d4dae5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 32px;
+    position: relative;
+    z-index: 1;
+}
+
+.downloads-detail .react-tabs ul.download-tabs li {
+    padding: 9px 16px;
+    color: #343741;
+    cursor: pointer;
+    margin-bottom: -2px;
+    font-size: 16px;
+    line-height: 26px;
+    border-bottom: 3px solid transparent;
+    position: relative;
+}
+
+.downloads-detail .react-tabs ul.download-tabs li.react-tabs__tab--selected {
+    color: #0077cc;
+    cursor: text;
+    display: block;
+    margin-bottom: -2px;
+    border-bottom: 3px solid #0077cc;
+}
+
+.downloads-detail .react-tabs ul.download-tabs li.react-tabs__tab--selected h6 {
+    color: #0077CC;
+}
+
+.downloads-detail .react-tabs ul.download-tabs li h6 {
+    padding: 0px;
+}
+
+.downloads-detail .footer-cta-cards .card-section .card-wrap {
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    .downloads-detail .react-tabs ul.download-tabs {
+        max-width: calc(66.6666666667% - 48px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .downloads-detail .icon-text-card-deck .card-deck {
+        margin: 0 -16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .downloads-detail .installation-steps .steps-wrapper .editorial-molecule-wrapper .molecule {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .downloads-detail .installation-steps .steps-wrapper .editorial-molecule-wrapper .molecule .avatar.small .pattern, .downloads-detail .installation-steps .steps-wrapper .editorial-molecule-wrapper .molecule .avatar.small img {
+        height: auto;
+        width: 100%;
+    }
+
+    .downloads-detail .installation-steps .steps-wrapper .editorial-molecule-wrapper .molecule .title-link {
+        margin: 32px 0 0 0;
+    }
+}
