@@ -1,0 +1,13 @@
+.image-module.jsx-3271368905 .img-fluid.jsx-3271368905 {
+    width: 100vw;
+}
+
+.image-module.jsx-3271368905 figure.jsx-3271368905 figcaption.jsx-3271368905 {
+    margin: 8px 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .image-module.jsx-3271368905 .img-fluid.jsx-3271368905 {
+        width: 100%;
+    }
+}
