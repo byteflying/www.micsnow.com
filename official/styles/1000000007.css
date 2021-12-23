@@ -1,0 +1,46 @@
+.eco-search-pagination-container .rc-pagination li:hover {
+    background: rgb(230, 235, 242);
+}
+
+.eco-search-pagination-container .rc-pagination li.rc-pagination-next button, .eco-search-pagination-container .rc-pagination li.rc-pagination-next a, .eco-search-pagination-container .rc-pagination li.rc-pagination-jump-next button, .eco-search-pagination-container .rc-pagination li.rc-pagination-jump-next a, .eco-search-pagination-container .rc-pagination li.rc-pagination-prev button, .eco-search-pagination-container .rc-pagination li.rc-pagination-prev a, .eco-search-pagination-container .rc-pagination li.rc-pagination-jump-prev button, .eco-search-pagination-container .rc-pagination li.rc-pagination-jump-prev a {
+    background: transparent;
+    border: none;
+}
+
+.eco-search-pagination-container .rc-pagination li.rc-pagination-prev button::after, .eco-search-pagination-container .rc-pagination li.rc-pagination-prev a::after {
+    content: url(https://cdn.jsdelivr.net/gh/byteflying/blogimage/image/2021-12-23-15-57-09.svg);
+    padding: 8px;
+    vertical-align: -40%;
+}
+
+.eco-search-pagination-container .rc-pagination li.rc-pagination-disabled.rc-pagination-next button::after, .eco-search-pagination-container .rc-pagination li.rc-pagination-disabled.rc-pagination-next a::after {
+    content: url(https://cdn.jsdelivr.net/gh/byteflying/blogimage/image/2021-12-23-15-57-15.svg);
+    opacity: 0.5;
+    vertical-align: -40%;
+}
+
+.eco-search-pagination-container .rc-pagination li {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(0, 119, 204);
+    font-size: 16px;
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    border-radius: 0px;
+}
+
+.eco-search-pagination-container .rc-pagination {
+    display: flex;
+    padding: 0px 25px;
+    border: none;
+}
+
+.eco-search-pagination-container .rc-pagination li a {
+    cursor: pointer;
+}
