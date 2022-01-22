@@ -1,0 +1,30 @@
+#blog-sidebar .blog-sidebar-section .icon-text-card-deck {
+    padding: 0 !important;
+}
+
+.blog-sidebar-section.jsx-4166875169 h6 {
+    font-size: 16px;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.blog-sidebar-section.jsx-4166875169 .mktoForm .mktoButtonRow {
+    margin-top: 8px;
+}
+
+.blog-sidebar-section.jsx-4166875169 form.fallback .button-wrapper {
+    margin: 8px 0 0 0 !important;
+    position: relative !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .blog-sidebar-section.jsx-4166875169 .icon-text-card.card .wrapper {
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .blog-sidebar-section.jsx-4166875169 {
+        margin-top: 64px;
+    }
+}

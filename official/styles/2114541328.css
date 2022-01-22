@@ -1,0 +1,55 @@
+.icon-text-card-deck .title-text.p-t-loose {
+    padding-top: 0px !important;
+}
+
+.icon-text-card-deck .card-deck:lang(fr-fr) .card {
+    word-break: break-word;
+}
+
+.icon-text-card-deck .card-deck.double .card {
+    border-top: 3px solid #0077CC;
+}
+
+.icon-text-card-deck .labels-bottom {
+    margin: 0;
+}
+
+.icon-text-card-deck .labels-bottom .col:first-child, .icon-text-card-deck .labels-bottom .col-md-4:first-child {
+    padding-left: 0px;
+}
+
+.icon-text-card-deck .labels-bottom .col:last-child, .icon-text-card-deck .labels-bottom .col-md-4:last-child {
+    padding-right: 0px;
+}
+
+.icon-text-card-deck .labels-bottom .label {
+    margin-top: 24px;
+    border-top: 1px solid #D4DAE5;
+}
+
+@media screen and (max-width: 991px) {
+    .icon-text-card-deck .labels {
+        display: none;
+    }
+
+    .icon-text-card-deck .labels-bottom {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .icon-text-card-deck .card-deck {
+        margin: 0;
+    }
+
+    .icon-text-card-deck .label {
+        margin: 0 0 24px 0;
+        border-top: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .icon-text-card-deck .card-deck {
+        margin: 0;
+    }
+}
