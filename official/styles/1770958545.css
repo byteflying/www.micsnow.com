@@ -1,0 +1,462 @@
+.subscription-cloud .packages-table {
+    position: relative;
+}
+
+.subscription-cloud .packages-table .package-row {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.subscription-cloud .packages-table h4 {
+    margin-bottom: 0px;
+}
+
+.subscription-cloud .packages-table .column {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 16px;
+    text-align: center;
+    width: 18%;
+    border-left: 2px solid #D4DAE5;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.subscription-cloud .packages-table .column.column-w-3 {
+    width: 22%;
+}
+
+.subscription-cloud .packages-table .first-column {
+    display: block;
+    width: 28%;
+    text-align: left;
+    border-left: 0px none;
+}
+
+.subscription-cloud .packages-table .first-column.column-w-3 {
+    width: 34%;
+}
+
+.subscription-cloud .packages-table .topic-heading, .subscription-cloud .packages-table h2.topic-heading {
+    background-color: #F5F7FA;
+    height: unset;
+    margin-bottom: 0px;
+    padding: 16px 0px;
+    text-align: center;
+    border-top: 2px solid #D4DAE5;
+    border-bottom: 2px solid #D4DAE5;
+}
+
+.subscription-cloud .packages-table .service-title {
+    background-color: #fff;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: -2px;
+    padding: 16px;
+    border-top: 2px solid #D4DAE5;
+    border-bottom: 2px solid #D4DAE5;
+}
+
+.subscription-cloud .packages-table .product-wrapper {
+    margin-bottom: 32px;
+}
+
+.subscription-cloud .check-icon:after {
+    border: solid #00BFB3;
+    border-width: 0 3px 3px 0;
+    content: '';
+    display: block;
+    height: 18px;
+    margin: 0 auto;
+    width: 10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.subscription-cloud .hyphen:after {
+    background-color: #98A2B3;
+    content: '';
+    display: block;
+    height: 3px;
+    width: 20px;
+}
+
+.subscription-cloud .sticky-nav {
+    background-color: #fff;
+    left: 0;
+    margin: 0 auto !important;
+    overflow: hidden;
+    position: fixed;
+    right: 0px;
+    text-align: center;
+    top: 0;
+    width: 1250px;
+    z-index: 100;
+    border-bottom: 2px solid #D4DAE5;
+}
+
+.subscription-cloud .sticky-heading {
+    position: fixed;
+    top: 78px;
+    width: 1250px;
+    z-index: 100;
+}
+
+.subscription-cloud .sticky-title {
+    background-color: #fff;
+    position: fixed;
+    text-align: left;
+    top: 118px;
+    width: 1250px;
+    z-index: 100;
+}
+
+.subscription-cloud .prod-serv-section {
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+
+.subscription-cloud .prod-serv-section .services {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    border-right: 2px dashed #D4DAE5;
+}
+
+.subscription-cloud .prod-serv-section .services:last-child {
+    border-right: 0px none;
+}
+
+.subscription-cloud .prod-serv-section .features li {
+    font-size: 14px;
+    font-weight: normal;
+    list-style-type: none;
+    margin: 5px 0;
+    padding-left: 15px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.subscription-cloud .prod-serv-section .features li.feature-active:before {
+    background-color: #00857f;
+}
+
+.subscription-cloud .prod-serv-section .features li.feature-inactive {
+    color: #999;
+}
+
+.subscription-cloud .prod-serv-section .features li.feature-inactive:before {
+    background-color: #fff;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+}
+
+.subscription-cloud .prod-serv-section .services-wrapper, .subscription-cloud .prod-serv-section .product-wrapper {
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+@media screen and (max-width: 1199px) {
+    .subscription-cloud .sticky-nav {
+        width: auto;
+    }
+
+    .subscription-cloud .sticky-heading {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .subscription-cloud .white-box .col-12 {
+        margin-top: 20px;
+    }
+
+    .subscription-cloud .white-box .col-12:first-child {
+        margin-top: 0px;
+    }
+
+    .subscription-cloud .white-box h3 {
+        margin-left: 20px;
+    }
+
+    .subscription-cloud .sticky-nav, .subscription-cloud .sticky-heading {
+        width: calc(100% - 30px);
+    }
+
+    .subscription-cloud .pricing-card .btn-primary {
+        min-width: auto;
+        padding: 8px 5px !important;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .subscription-cloud .packages-table h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .subscription-cloud .white-box .col-12 {
+        text-align: center !important;
+    }
+
+    .subscription-cloud #sign-up-cta, .subscription-cloud .footnote {
+        padding: 24px;
+    }
+
+    .subscription-cloud .packages-table {
+        box-shadow: 0px 10px 20px 0px rgba(152, 162, 179, 0.15), 0px 2px 6px 0px rgba(152, 162, 179, 0.25);
+        margin-bottom: 80px;
+    }
+
+    .subscription-cloud .packages-table .table-outer {
+        margin-left: 50%;
+        overflow-x: scroll;
+        width: 50%;
+    }
+
+    .subscription-cloud .packages-table .mobile-table-column {
+        left: 0;
+        overflow: hidden;
+        padding: 0px;
+        position: absolute;
+        right: 0px;
+        top: auto;
+        z-index: 1;
+    }
+
+    .subscription-cloud .packages-table .mobile-table-col {
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 16px;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .subscription-cloud .packages-table .column {
+        width: 100%;
+    }
+
+    .subscription-cloud .packages-table .row {
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .subscription-cloud .packages-table .mobile-scroll {
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 16px 30px;
+        width: 100%;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .subscription-cloud .packages-table .left-scroll, .subscription-cloud .packages-table .right-scroll {
+        cursor: pointer;
+        height: 24px;
+        padding: 0 10px;
+        position: relative;
+        width: 24px;
+    }
+
+    .subscription-cloud .packages-table .left-scroll:before, .subscription-cloud .packages-table .right-scroll:before {
+        bottom: 0;
+        content: '';
+        background-color: #000;
+        height: 2px;
+        margin: auto;
+        position: absolute;
+        top: 0px;
+        width: 20px;
+    }
+
+    .subscription-cloud .packages-table .left-scroll:after, .subscription-cloud .packages-table .right-scroll:after {
+        content: '';
+        position: absolute;
+        top: 9px;
+    }
+
+    .subscription-cloud .packages-table .left-scroll.disable-scroll:before, .subscription-cloud .packages-table .right-scroll.disable-scroll:before {
+        opacity: 0.34;
+        -webkit-filter: alpha(opacity=34);
+        filter: alpha(opacity=34);
+    }
+
+    .subscription-cloud .packages-table .left-scroll:before {
+        left: 0px;
+    }
+
+    .subscription-cloud .packages-table .left-scroll:after {
+        left: -2px;
+        border-right: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        border-top: 3px solid #000;
+        border-left: 3px solid #000;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .subscription-cloud .packages-table .left-scroll.disable-scroll:after {
+        border-top-color: rgba(0, 0, 0, 0.34);
+        border-left-color: rgba(0, 0, 0, 0.34);
+    }
+
+    .subscription-cloud .packages-table .right-scroll:before {
+        right: 0px;
+    }
+
+    .subscription-cloud .packages-table .right-scroll:after {
+        right: -2px;
+        border-top: 3px solid transparent;
+        border-left: 3px solid transparent;
+        border-right: 3px solid #000;
+        border-bottom: 3px solid #000;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .subscription-cloud .packages-table .right-scroll.disable-scroll:after {
+        border-right-color: rgba(0, 0, 0, 0.34);
+        border-bottom-color: rgba(0, 0, 0, 0.34);
+    }
+
+    .subscription-cloud .packages-table .table-data {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .subscription-cloud .packages-table .table-data .mobile-table-heading {
+        border-top: 4px solid transparent;
+    }
+
+    .subscription-cloud .packages-table .table-data .mobile-table-title {
+        margin-top: -2px;
+        border-top: 2px solid transparent;
+        border-bottom: 2px solid transparent;
+        border-left: 2px solid transparent;
+    }
+
+    .subscription-cloud .packages-table .mobile-table-heading {
+        z-index: 100;
+    }
+
+    .subscription-cloud .packages-table .empty-products-row .column {
+        border-left: 0px none;
+    }
+
+    .subscription-cloud .packages-table .fixed-col {
+        padding-right: 0px !important;
+    }
+
+    .subscription-cloud .packages-table .fixed-col .mobile-table-col:nth-child(odd) {
+        background-color: #ECEDF4;
+    }
+
+    .subscription-cloud .packages-table .table-row {
+        padding: 0 10px;
+    }
+
+    .subscription-cloud .packages-table .pricing-mobile-headers.sticky-nav {
+        left: 0px;
+    }
+
+    .subscription-cloud .packages-table .pricing-mobile-headers.sticky-nav .table-data {
+        left: 50%;
+        position: relative;
+        width: 50%;
+    }
+
+    .subscription-cloud .packages-table .pricing-mobile-headers .mobile-table-column {
+        background-color: #fff;
+    }
+
+    .subscription-cloud .packages-table .pricing-mobile-headers .mtable-data.fixed-nav .row:nth-child(odd) .mobile-table-col {
+        background-color: #ECEDF4;
+    }
+
+    .subscription-cloud .packages-table .sticky-nav, .subscription-cloud .packages-table .sticky-heading {
+        width: calc(100% - 20px);
+        z-index: 100;
+    }
+
+    .subscription-cloud .packages-table .sticky-heading {
+        top: 58px;
+    }
+
+    .subscription-cloud .packages-table .sticky-title {
+        top: 118px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .subscription-cloud .subscribe-tab-nav p {
+        font-size: 10px !important;
+    }
+
+    .subscription-cloud .sticky-nav {
+        width: calc(100% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .subscription-cloud .packages-table h4 {
+        font-size: 16px !important;
+    }
+
+    .subscription-cloud .packages-table .topic-heading, .subscription-cloud .packages-table h2.topic-heading {
+        font-size: 10px;
+    }
+}
+
+.table-heading::-webkit-scrollbar {
+    display: none;
+}
